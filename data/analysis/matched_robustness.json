@@ -1,0 +1,257 @@
+{
+  "params": [
+    {
+      "spec": "1:1, caliper 0.2sd",
+      "log pop 1970": {
+        "coef": 0.2108,
+        "se": 0.0719,
+        "p": 0.0034,
+        "n": 210,
+        "n_treated": 115
+      },
+      "mfg share 1970": {
+        "coef": 4.0471,
+        "se": 0.8708,
+        "p": 0.0,
+        "n": 210,
+        "n_treated": 115
+      },
+      "log income 1970": {
+        "coef": 0.0791,
+        "se": 0.0217,
+        "p": 0.0003,
+        "n": 210,
+        "n_treated": 115
+      },
+      "homeownership 1970": {
+        "coef": 0.7914,
+        "se": 0.8413,
+        "p": 0.3469,
+        "n": 210,
+        "n_treated": 115
+      }
+    },
+    {
+      "spec": "3:1, caliper 0.2sd (baseline)",
+      "log pop 1970": {
+        "coef": 0.2092,
+        "se": 0.0605,
+        "p": 0.0005,
+        "n": 364,
+        "n_treated": 115
+      },
+      "mfg share 1970": {
+        "coef": 3.3378,
+        "se": 0.8458,
+        "p": 0.0001,
+        "n": 364,
+        "n_treated": 115
+      },
+      "log income 1970": {
+        "coef": 0.0704,
+        "se": 0.0194,
+        "p": 0.0003,
+        "n": 364,
+        "n_treated": 115
+      },
+      "homeownership 1970": {
+        "coef": 0.9417,
+        "se": 0.6117,
+        "p": 0.1237,
+        "n": 364,
+        "n_treated": 115
+      }
+    },
+    {
+      "spec": "5:1, caliper 0.2sd",
+      "log pop 1970": {
+        "coef": 0.1929,
+        "se": 0.055,
+        "p": 0.0005,
+        "n": 484,
+        "n_treated": 115
+      },
+      "mfg share 1970": {
+        "coef": 3.419,
+        "se": 0.7609,
+        "p": 0.0,
+        "n": 484,
+        "n_treated": 115
+      },
+      "log income 1970": {
+        "coef": 0.0705,
+        "se": 0.0169,
+        "p": 0.0,
+        "n": 484,
+        "n_treated": 115
+      },
+      "homeownership 1970": {
+        "coef": 0.7663,
+        "se": 0.5541,
+        "p": 0.1667,
+        "n": 484,
+        "n_treated": 115
+      }
+    },
+    {
+      "spec": "3:1, caliper 0.1sd",
+      "log pop 1970": {
+        "coef": 0.2089,
+        "se": 0.0621,
+        "p": 0.0008,
+        "n": 354,
+        "n_treated": 110
+      },
+      "mfg share 1970": {
+        "coef": 3.6225,
+        "se": 0.8547,
+        "p": 0.0,
+        "n": 354,
+        "n_treated": 110
+      },
+      "log income 1970": {
+        "coef": 0.0708,
+        "se": 0.0189,
+        "p": 0.0002,
+        "n": 354,
+        "n_treated": 110
+      },
+      "homeownership 1970": {
+        "coef": 0.9161,
+        "se": 0.6314,
+        "p": 0.1468,
+        "n": 354,
+        "n_treated": 110
+      }
+    },
+    {
+      "spec": "3:1, caliper 0.5sd",
+      "log pop 1970": {
+        "coef": 0.201,
+        "se": 0.0567,
+        "p": 0.0004,
+        "n": 369,
+        "n_treated": 118
+      },
+      "mfg share 1970": {
+        "coef": 3.4472,
+        "se": 0.8575,
+        "p": 0.0001,
+        "n": 369,
+        "n_treated": 118
+      },
+      "log income 1970": {
+        "coef": 0.0729,
+        "se": 0.0195,
+        "p": 0.0002,
+        "n": 369,
+        "n_treated": 118
+      },
+      "homeownership 1970": {
+        "coef": 0.9934,
+        "se": 0.5987,
+        "p": 0.0971,
+        "n": 369,
+        "n_treated": 118
+      }
+    }
+  ],
+  "samples": [
+    {
+      "spec": "pop $\\geq$ 10,000",
+      "n": 2267,
+      "log pop 1970": {
+        "coef": 0.1967,
+        "se": 0.0578,
+        "p": 0.0007,
+        "n": 352,
+        "n_treated": 114
+      },
+      "mfg share 1970": {
+        "coef": 3.6341,
+        "se": 0.7745,
+        "p": 0.0,
+        "n": 352,
+        "n_treated": 114
+      },
+      "log income 1970": {
+        "coef": 0.0811,
+        "se": 0.0169,
+        "p": 0.0,
+        "n": 352,
+        "n_treated": 114
+      },
+      "homeownership 1970": {
+        "coef": 1.1838,
+        "se": 0.6778,
+        "p": 0.0807,
+        "n": 352,
+        "n_treated": 114
+      }
+    },
+    {
+      "spec": "any 1940 manufacturing",
+      "n": 2616,
+      "log pop 1970": {
+        "coef": 0.2171,
+        "se": 0.0475,
+        "p": 0.0,
+        "n": 371,
+        "n_treated": 116
+      },
+      "mfg share 1970": {
+        "coef": 3.1561,
+        "se": 0.8207,
+        "p": 0.0001,
+        "n": 371,
+        "n_treated": 116
+      },
+      "log income 1970": {
+        "coef": 0.0846,
+        "se": 0.0142,
+        "p": 0.0,
+        "n": 371,
+        "n_treated": 116
+      },
+      "homeownership 1970": {
+        "coef": 0.9806,
+        "se": 0.5616,
+        "p": 0.0808,
+        "n": 371,
+        "n_treated": 116
+      }
+    }
+  ],
+  "n_neighbour_pool": 475,
+  "n_treated_adjacency": 118,
+  "adjacency": {
+    "log pop 1970": {
+      "coef": 0.1805,
+      "se": 0.0583,
+      "p": 0.002,
+      "n": 273,
+      "n_treated": 111
+    },
+    "mfg share 1970": {
+      "coef": 1.6277,
+      "se": 0.7092,
+      "p": 0.0217,
+      "n": 273,
+      "n_treated": 111
+    },
+    "log income 1970": {
+      "coef": 0.0446,
+      "se": 0.0178,
+      "p": 0.0123,
+      "n": 273,
+      "n_treated": 111
+    },
+    "homeownership 1970": {
+      "coef": 0.3972,
+      "se": 0.5588,
+      "p": 0.4772,
+      "n": 273,
+      "n_treated": 111
+    }
+  }
+}

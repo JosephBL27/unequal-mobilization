@@ -1,0 +1,146 @@
+{
+  "specifications": [
+    {
+      "instrument": "All allocated establishments, every branch",
+      "var": "imp_total",
+      "endogenous": "W_C",
+      "F": 37.3,
+      "partial_r2": 0.0273,
+      "placebo": {
+        "1940 manufacturing share": 0.0,
+        "1940 urban share": 0.0,
+        "1940 log population": 0.0,
+        "1930--40 population growth": 0.0016
+      },
+      "min_placebo_p": 0.0,
+      "usable": false
+    },
+    {
+      "instrument": "Allocated facilities (baseline)",
+      "var": "imp_fac",
+      "endogenous": "W_C",
+      "F": 23.5,
+      "partial_r2": 0.0178,
+      "placebo": {
+        "1940 manufacturing share": 0.0,
+        "1940 urban share": 0.0,
+        "1940 log population": 0.0,
+        "1930--40 population growth": 0.0002
+      },
+      "min_placebo_p": 0.0,
+      "usable": false
+    },
+    {
+      "instrument": "Facilities, machine tool, aero, optics, steel",
+      "var": "imp_industrial",
+      "endogenous": "W_C",
+      "F": 23.6,
+      "partial_r2": 0.0177,
+      "placebo": {
+        "1940 manufacturing share": 0.0,
+        "1940 urban share": 0.0,
+        "1940 log population": 0.0,
+        "1930--40 population growth": 0.0002
+      },
+      "min_placebo_p": 0.0,
+      "usable": false
+    },
+    {
+      "instrument": "Any allocated facility (extensive margin)",
+      "var": "any_imp",
+      "endogenous": "W_C",
+      "F": 59.1,
+      "partial_r2": 0.0551,
+      "placebo": {
+        "1940 manufacturing share": 0.0,
+        "1940 urban share": 0.0,
+        "1940 log population": 0.0,
+        "1930--40 population growth": 0.8849
+      },
+      "min_placebo_p": 0.0,
+      "usable": false
+    },
+    {
+      "instrument": "Machine-tool branch only",
+      "var": "imp_tool",
+      "endogenous": "W_C",
+      "F": 3.9,
+      "partial_r2": 0.001,
+      "placebo": {
+        "1940 manufacturing share": 0.0,
+        "1940 urban share": 0.7851,
+        "1940 log population": 0.0,
+        "1930--40 population growth": 0.0
+      },
+      "min_placebo_p": 0.0,
+      "usable": false
+    },
+    {
+      "instrument": "Aeronautical branch only",
+      "var": "imp_aero",
+      "endogenous": "W_F",
+      "F": 10.7,
+      "partial_r2": 0.003,
+      "placebo": {
+        "1940 manufacturing share": 0.1624,
+        "1940 urban share": 0.2118,
+        "1940 log population": 0.0,
+        "1930--40 population growth": 0.0
+      },
+      "min_placebo_p": 0.0,
+      "usable": false
+    },
+    {
+      "instrument": "Aeronautical and optical branches only",
+      "var": "imp_narrow",
+      "endogenous": "W_F",
+      "F": 13.3,
+      "partial_r2": 0.0028,
+      "placebo": {
+        "1940 manufacturing share": 0.1974,
+        "1940 urban share": 0.2626,
+        "1940 log population": 0.0,
+        "1930--40 population growth": 0.0
+      },
+      "min_placebo_p": 0.0,
+      "usable": false
+    },
+    {
+      "instrument": "Prewar Army and Navy sites",
+      "var": "mil_prewar",
+      "endogenous": "W_M",
+      "F": 18.9,
+      "partial_r2": 0.0113,
+      "placebo": {
+        "1940 manufacturing share": 0.0001,
+        "1940 urban share": 0.0015,
+        "1940 log population": 0.0,
+        "1930--40 population growth": 0.0008
+      },
+      "min_placebo_p": 0.0,
+      "usable": false
+    },
+    {
+      "instrument": "Any prewar Army or Navy site",
+      "var": "any_mil_prewar",
+      "endogenous": "W_M",
+      "F": 24.9,
+      "partial_r2": 0.0142,
+      "placebo": {
+        "1940 manufacturing share": 0.0076,
+        "1940 urban share": 0.0001,
+        "1940 log population": 0.0,
+        "1930--40 population growth": 0.0377
+      },
+      "min_placebo_p": 0.0,
+      "usable": false
+    }
+  ],
+  "n_usable": 0,
+  "n_specs": 9,
+  "thresholds": {
+    "F": 10,
+    "partial_r2": 0.05,
+    "placebo_p": 0.05
+  }
+}

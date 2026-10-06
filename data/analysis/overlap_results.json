@@ -1,0 +1,15 @@
+{
+  "n_counties": 3073,
+  "overlap_coefficient_A": 0.4663,
+  "jensen_shannon_bits": 0.3379,
+  "spearman_rho": 0.6354,
+  "deaths_total": 297627,
+  "contract_dollars_k_total": 178173918.0,
+  "deaths_top20_share": 0.2039,
+  "contracts_top20_share": 0.4375,
+  "deaths_top100_share": 0.4074,
+  "contracts_top100_share": 0.8128,
+  "counties_zero_contracts": 1583,
+  "counties_deaths_no_contracts": 1553,
+  "spearman_percapita": -0.0258
+}

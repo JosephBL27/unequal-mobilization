@@ -1,0 +1,106 @@
+{
+  "thresholds": [
+    {
+      "spec": "top 5% of per-capita military $",
+      "n_treated": 27,
+      "log pop": {
+        "coef": 0.8674,
+        "p": 0.0
+      },
+      "mfg share": {
+        "coef": -9.0917,
+        "p": 0.0
+      },
+      "own rate": {
+        "coef": -9.2525,
+        "p": 0.0
+      }
+    },
+    {
+      "spec": "top 10% (baseline)",
+      "n_treated": 52,
+      "log pop": {
+        "coef": 0.5509,
+        "p": 0.0
+      },
+      "mfg share": {
+        "coef": -4.7201,
+        "p": 0.0007
+      },
+      "own rate": {
+        "coef": -7.489,
+        "p": 0.0
+      }
+    },
+    {
+      "spec": "top 20%",
+      "n_treated": 99,
+      "log pop": {
+        "coef": 0.5348,
+        "p": 0.0
+      },
+      "mfg share": {
+        "coef": -4.306,
+        "p": 0.0011
+      },
+      "own rate": {
+        "coef": -5.6098,
+        "p": 0.0
+      }
+    },
+    {
+      "spec": "top 30%",
+      "n_treated": 153,
+      "log pop": {
+        "coef": 0.385,
+        "p": 0.0
+      },
+      "mfg share": {
+        "coef": -4.6108,
+        "p": 0.0001
+      },
+      "own rate": {
+        "coef": -4.6898,
+        "p": 0.0
+      }
+    }
+  ],
+  "absolute": {
+    "n_treated": 183,
+    "log pop": {
+      "coef": 0.3746,
+      "p": 0.0
+    },
+    "mfg share": {
+      "coef": -4.1784,
+      "p": 0.0
+    },
+    "own rate": {
+      "coef": -4.2896,
+      "p": 0.0
+    }
+  },
+  "randomization": [
+    {
+      "outcome": "log pop",
+      "observed": 0.5509,
+      "perm_p": 0.0,
+      "null_sd": 0.0627,
+      "n_draws": 500
+    },
+    {
+      "outcome": "mfg share",
+      "observed": -4.7201,
+      "perm_p": 0.004,
+      "null_sd": 1.4219,
+      "n_draws": 500
+    },
+    {
+      "outcome": "own rate",
+      "observed": -7.489,
+      "perm_p": 0.0,
+      "null_sd": 0.9763,
+      "n_draws": 500
+    }
+  ]
+}

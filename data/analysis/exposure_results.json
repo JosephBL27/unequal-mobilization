@@ -1,0 +1,117 @@
+{
+  "n_total": 3073,
+  "n_valid_BA": 2976,
+  "excluded": 97,
+  "excluded_pop_share": 0.0255,
+  "fatality_rate_national": 42.87,
+  "BA_p90_p10_ratio": 3.583,
+  "spearman_BA_Bcivic": 0.628,
+  "spearman_mob_BA": -0.6294,
+  "spearman_mob_Bcivic": 0.0945,
+  "overlap": {
+    "contracts W^C": {
+      "A": 0.4663,
+      "JS": 0.3379,
+      "rho_levels": 0.6354,
+      "rho_per_enlistee": -0.1567
+    },
+    "war plant W^F": {
+      "A": 0.4132,
+      "JS": 0.4192,
+      "rho_levels": 0.4943,
+      "rho_per_enlistee": -0.0672
+    },
+    "military installations W^M": {
+      "A": 0.2784,
+      "JS": 0.5509,
+      "rho_levels": 0.322,
+      "rho_per_enlistee": -0.1872
+    }
+  },
+  "allocation_BA": [
+    {
+      "dv": "contracts",
+      "coef": -0.001494,
+      "p": 0.4455,
+      "n": 2976
+    },
+    {
+      "dv": "war plant",
+      "coef": 0.000557,
+      "p": 0.7324,
+      "n": 2976
+    },
+    {
+      "dv": "military",
+      "coef": 0.00048,
+      "p": 0.8075,
+      "n": 2976
+    }
+  ],
+  "outcomes_BA": [
+    {
+      "outcome": "log population 1970",
+      "n": 2971,
+      "coef": {
+        "W_C": 0.03462,
+        "W_F": 0.01878,
+        "W_M": 0.04954,
+        "B_A": -0.00054
+      },
+      "p": {
+        "W_C": 0.0,
+        "W_F": 0.0001,
+        "W_M": 0.0,
+        "B_A": 0.0775
+      }
+    },
+    {
+      "outcome": "mfg share 1970",
+      "n": 2973,
+      "coef": {
+        "W_C": 0.32909,
+        "W_F": 0.28469,
+        "W_M": -0.57286,
+        "B_A": -0.01061
+      },
+      "p": {
+        "W_C": 0.0017,
+        "W_F": 0.0011,
+        "W_M": 0.0,
+        "B_A": 0.2109
+      }
+    },
+    {
+      "outcome": "log family income 1970",
+      "n": 2973,
+      "coef": {
+        "W_C": 0.01515,
+        "W_F": 0.00974,
+        "W_M": 0.00839,
+        "B_A": -0.0002
+      },
+      "p": {
+        "W_C": 0.0,
+        "W_F": 0.0001,
+        "W_M": 0.0,
+        "B_A": 0.2418
+      }
+    },
+    {
+      "outcome": "homeownership 1970",
+      "n": 2973,
+      "coef": {
+        "W_C": -0.04197,
+        "W_F": 0.08604,
+        "W_M": -0.29997,
+        "B_A": -0.00336
+      },
+      "p": {
+        "W_C": 0.62,
+        "W_F": 0.3005,
+        "W_M": 0.0,
+        "B_A": 0.6418
+      }
+    }
+  ]
+}

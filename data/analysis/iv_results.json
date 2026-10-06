@@ -1,0 +1,141 @@
+{
+  "first_stage": [
+    {
+      "spec": "contracts ~ IMP facilities",
+      "F": 23.471,
+      "n": 3073,
+      "verdict": "strong",
+      "coef": {
+        "z_imp_fac": 0.4102
+      }
+    },
+    {
+      "spec": "contracts ~ IMP by branch (4)",
+      "F": 8.813,
+      "n": 3073,
+      "verdict": "weak",
+      "coef": {
+        "z_imp_o": -0.3126,
+        "z_imp_a": -0.3067,
+        "z_imp_e": -0.0653,
+        "z_imp_q": 0.43
+      }
+    },
+    {
+      "spec": "war plant ~ IMP industrial",
+      "F": 63.569,
+      "n": 3073,
+      "verdict": "strong",
+      "coef": {
+        "z_imp_industrial": 0.5155
+      }
+    },
+    {
+      "spec": "war plant ~ IMP by branch (4)",
+      "F": 13.589,
+      "n": 3073,
+      "verdict": "strong",
+      "coef": {
+        "z_imp_o": 0.4415,
+        "z_imp_a": 0.0529,
+        "z_imp_e": 0.2165,
+        "z_imp_q": 0.1358
+      }
+    },
+    {
+      "spec": "military ~ prewar bases/estabs",
+      "F": 18.859,
+      "n": 3073,
+      "verdict": "strong",
+      "coef": {
+        "z_mil_prewar": 0.6592
+      }
+    }
+  ],
+  "iv": [
+    {
+      "outcome": "log population 1970",
+      "n": 3065,
+      "W_C": {
+        "coef": 0.07639,
+        "se": 0.02891,
+        "p": 0.0082
+      },
+      "W_F": {
+        "coef": -0.04261,
+        "se": 0.022,
+        "p": 0.0528
+      },
+      "W_M": {
+        "coef": 0.03861,
+        "se": 0.03106,
+        "p": 0.2138
+      },
+      "wu_hausman_p": 0.0034,
+      "sargan_p": 0.7274
+    },
+    {
+      "outcome": "manufacturing share 1970",
+      "n": 3066,
+      "W_C": {
+        "coef": 0.57675,
+        "se": 0.90623,
+        "p": 0.5245
+      },
+      "W_F": {
+        "coef": -2.43775,
+        "se": 0.72318,
+        "p": 0.0007
+      },
+      "W_M": {
+        "coef": -0.79499,
+        "se": 0.79469,
+        "p": 0.3171
+      },
+      "wu_hausman_p": 0.0,
+      "sargan_p": 0.2912
+    },
+    {
+      "outcome": "log family income 1970",
+      "n": 3066,
+      "W_C": {
+        "coef": -0.15155,
+        "se": 0.08131,
+        "p": 0.0623
+      },
+      "W_F": {
+        "coef": -0.37521,
+        "se": 0.07441,
+        "p": 0.0
+      },
+      "W_M": {
+        "coef": 0.0726,
+        "se": 0.06842,
+        "p": 0.2887
+      },
+      "wu_hausman_p": 0.0,
+      "sargan_p": 0.2868
+    },
+    {
+      "outcome": "homeownership 1970",
+      "n": 3066,
+      "W_C": {
+        "coef": -1.01528,
+        "se": 1.13249,
+        "p": 0.37
+      },
+      "W_F": {
+        "coef": -5.60079,
+        "se": 1.05054,
+        "p": 0.0
+      },
+      "W_M": {
+        "coef": -0.0414,
+        "se": 1.23685,
+        "p": 0.9733
+      },
+      "wu_hausman_p": 0.0,
+      "sargan_p": 0.0657
+    }
+  ]
+}

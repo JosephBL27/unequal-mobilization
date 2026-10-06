@@ -1,0 +1,161 @@
+{
+  "threshold_per1000": 1349.392,
+  "n_treated": 52,
+  "balance": [
+    {
+      "var": "logpop1940",
+      "raw": -0.375,
+      "matched": 0.0001
+    },
+    {
+      "var": "urbrate1940",
+      "raw": 0.1788,
+      "matched": 0.0112
+    },
+    {
+      "var": "blackshare1940",
+      "raw": 0.1368,
+      "matched": -0.0619
+    },
+    {
+      "var": "mfgshare1940",
+      "raw": -0.0419,
+      "matched": -0.0847
+    },
+    {
+      "var": "popgrowth_3040",
+      "raw": 0.3194,
+      "matched": 0.1059
+    },
+    {
+      "var": "PCTILL3",
+      "raw": 0.1224,
+      "matched": -0.0092
+    },
+    {
+      "var": "PCTFRM3",
+      "raw": -0.58,
+      "matched": -0.0007
+    },
+    {
+      "var": "LATITUDE",
+      "raw": -0.195,
+      "matched": 0.032
+    },
+    {
+      "var": "LONGITUD",
+      "raw": 0.3734,
+      "matched": -0.0254
+    }
+  ],
+  "effects": [
+    {
+      "outcome": "log population 1970",
+      "coef": 0.55093,
+      "se": 0.07923,
+      "p": 0.0,
+      "n": 204
+    },
+    {
+      "outcome": "manufacturing share 1970",
+      "coef": -4.72009,
+      "se": 1.39567,
+      "p": 0.0007,
+      "n": 204
+    },
+    {
+      "outcome": "log family income 1970",
+      "coef": 0.10508,
+      "se": 0.02553,
+      "p": 0.0,
+      "n": 204
+    },
+    {
+      "outcome": "homeownership 1970",
+      "coef": -7.48899,
+      "se": 1.12353,
+      "p": 0.0,
+      "n": 204
+    },
+    {
+      "outcome": "manufacturing share 1960",
+      "coef": -2.29292,
+      "se": 1.28964,
+      "p": 0.0754,
+      "n": 204
+    },
+    {
+      "outcome": "log total employment 1970",
+      "coef": 0.41406,
+      "se": 0.08539,
+      "p": 0.0,
+      "n": 204
+    },
+    {
+      "outcome": "log manufacturing employment 1970",
+      "coef": 0.21508,
+      "se": 0.13179,
+      "p": 0.1027,
+      "n": 204
+    },
+    {
+      "outcome": "homeownership 1950",
+      "coef": -5.57376,
+      "se": 1.05464,
+      "p": 0.0,
+      "n": 204
+    },
+    {
+      "outcome": "homeownership 1960",
+      "coef": -6.35345,
+      "se": 1.1156,
+      "p": 0.0,
+      "n": 204
+    },
+    {
+      "outcome": "log median house value 1970",
+      "coef": 0.14378,
+      "se": 0.04467,
+      "p": 0.0013,
+      "n": 204
+    }
+  ],
+  "placebo": [
+    {
+      "outcome": "log pop growth 1930-40",
+      "coef": 0.08624,
+      "p": 0.6615
+    },
+    {
+      "outcome": "mfg share 1940",
+      "coef": -0.06893,
+      "p": 0.6251
+    },
+    {
+      "outcome": "homeownership 1940",
+      "coef": 0.52903,
+      "p": 0.6965
+    }
+  ],
+  "treated_dollars_bn": 2.146952,
+  "treated_share_sample": 0.2612053454490551,
+  "treated_share_national": 0.2185490724893703,
+  "n_treated_predrop": 56,
+  "n_treated_design": 54,
+  "treated_dollars_bn_design": 2.008597,
+  "treated_share_sample_design": 0.2485564991075415,
+  "treated_share_national_design": 0.20446521922936878,
+  "n_matched_controls": 152,
+  "states_treated": 27,
+  "max_treated_per_state": 4,
+  "n_state_clusters": 40,
+  "n_clusters_with_treated": 27,
+  "independence": {
+    "n_sample": 2973,
+    "n_plant": 118,
+    "n_mil": 56,
+    "n_both": 2,
+    "expected_both": 2.2227,
+    "fisher_p": 1.0
+  }
+}

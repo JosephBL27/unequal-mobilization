@@ -1,0 +1,38 @@
+{
+  "plant": [
+    {
+      "outcome": "enlistees per 1,000 residents",
+      "coef": -3.6263,
+      "se": 4.9455,
+      "p": 0.4634,
+      "n": 2971,
+      "mean": 52.21
+    },
+    {
+      "outcome": "deaths per 1,000 enlistees",
+      "coef": 2.5588,
+      "se": 9.4267,
+      "p": 0.7861,
+      "n": 2971,
+      "mean": 61.53
+    }
+  ],
+  "military": [
+    {
+      "outcome": "enlistees per 1,000 residents",
+      "coef": 10.154,
+      "se": 4.7702,
+      "p": 0.0333,
+      "n": 2969,
+      "mean": 52.18
+    },
+    {
+      "outcome": "deaths per 1,000 enlistees",
+      "coef": 2.4272,
+      "se": 8.6257,
+      "p": 0.7784,
+      "n": 2969,
+      "mean": 61.55
+    }
+  ]
+}

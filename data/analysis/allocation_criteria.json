@@ -1,0 +1,152 @@
+{
+  "overlap_decomposition": {
+    "observed": 0.4663,
+    "deaths_prop_to_pop": 0.4979,
+    "contracts_prop_to_pop": 0.8744,
+    "both_prop_to_pop": 1.0,
+    "share_from_contract_concentration": 0.7646,
+    "share_from_death_deviation": 0.0592,
+    "interaction_share": 0.1762,
+    "shapley_contract_level": 0.4551,
+    "shapley_death_level": 0.0786,
+    "shapley_contract_share": 0.8527,
+    "shapley_death_share": 0.1473
+  },
+  "poisson_null": {
+    "mean": 0.4977,
+    "sd": 0.0009,
+    "z_of_observed": 36.6
+  },
+  "criteria": {
+    "1940 manufacturing share": {
+      "W_C": {
+        "rho": 0.6927,
+        "n": 3073,
+        "ci": [
+          0.657,
+          0.728
+        ]
+      },
+      "W_F": {
+        "rho": 0.4446,
+        "n": 3073,
+        "ci": [
+          0.409,
+          0.48
+        ]
+      },
+      "W_M": {
+        "rho": 0.2337,
+        "n": 3073,
+        "ci": [
+          0.198,
+          0.269
+        ]
+      }
+    },
+    "1940 urban share": {
+      "W_C": {
+        "rho": 0.6478,
+        "n": 3073,
+        "ci": [
+          0.612,
+          0.683
+        ]
+      },
+      "W_F": {
+        "rho": 0.5069,
+        "n": 3073,
+        "ci": [
+          0.472,
+          0.542
+        ]
+      },
+      "W_M": {
+        "rho": 0.3977,
+        "n": 3073,
+        "ci": [
+          0.362,
+          0.433
+        ]
+      }
+    },
+    "1940 log population": {
+      "W_C": {
+        "rho": 0.6659,
+        "n": 3073,
+        "ci": [
+          0.631,
+          0.701
+        ]
+      },
+      "W_F": {
+        "rho": 0.5143,
+        "n": 3073,
+        "ci": [
+          0.479,
+          0.55
+        ]
+      },
+      "W_M": {
+        "rho": 0.3276,
+        "n": 3073,
+        "ci": [
+          0.292,
+          0.363
+        ]
+      }
+    },
+    "fatal burden, per resident": {
+      "W_C": {
+        "rho": -0.0258,
+        "n": 3073,
+        "ci": [
+          -0.061,
+          0.01
+        ]
+      },
+      "W_F": {
+        "rho": 0.0131,
+        "n": 3073,
+        "ci": [
+          -0.022,
+          0.049
+        ]
+      },
+      "W_M": {
+        "rho": -0.0538,
+        "n": 3073,
+        "ci": [
+          -0.089,
+          -0.018
+        ]
+      }
+    },
+    "fatal burden, per enlistee": {
+      "W_C": {
+        "rho": -0.1821,
+        "n": 2976,
+        "ci": [
+          -0.218,
+          -0.146
+        ]
+      },
+      "W_F": {
+        "rho": -0.0736,
+        "n": 2976,
+        "ci": [
+          -0.11,
+          -0.038
+        ]
+      },
+      "W_M": {
+        "rho": -0.1934,
+        "n": 2976,
+        "ci": [
+          -0.229,
+          -0.157
+        ]
+      }
+    }
+  }
+}

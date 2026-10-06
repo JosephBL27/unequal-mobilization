@@ -1,0 +1,114 @@
+{
+  "plant": [
+    {
+      "beta_uncontrolled": 1.77825,
+      "beta_controlled": 0.22889,
+      "r2_uncontrolled": 0.0874,
+      "r2_controlled": 0.8809,
+      "n": 2965,
+      "delta_13": 0.984,
+      "delta_1": 0.984,
+      "rmax_13": 1.0,
+      "outcome": "log population 1970",
+      "beta_matched": 0.20915
+    },
+    {
+      "beta_uncontrolled": 6.21085,
+      "beta_controlled": 3.20373,
+      "r2_uncontrolled": 0.008,
+      "r2_controlled": 0.5401,
+      "n": 2966,
+      "delta_13": 3.499,
+      "delta_1": 1.233,
+      "rmax_13": 0.7021,
+      "outcome": "manufacturing share 1970",
+      "beta_matched": 3.33781
+    },
+    {
+      "beta_uncontrolled": 0.2407,
+      "beta_controlled": 0.07886,
+      "r2_uncontrolled": 0.035,
+      "r2_controlled": 0.5087,
+      "n": 2966,
+      "delta_13": 1.512,
+      "delta_1": 0.47,
+      "rmax_13": 0.6613,
+      "outcome": "log family income 1970",
+      "beta_matched": 0.0704
+    },
+    {
+      "beta_uncontrolled": -2.07635,
+      "beta_controlled": 1.83733,
+      "r2_uncontrolled": 0.0027,
+      "r2_controlled": 0.3665,
+      "n": 2966,
+      "delta_13": -1.553,
+      "delta_1": -0.27,
+      "rmax_13": 0.4765,
+      "outcome": "homeownership 1970",
+      "beta_matched": 0.94165
+    },
+    {
+      "beta_uncontrolled": 2.27629,
+      "beta_controlled": 0.41524,
+      "r2_uncontrolled": 0.0643,
+      "r2_controlled": 0.8069,
+      "n": 2944,
+      "delta_13": 0.858,
+      "delta_1": 0.858,
+      "rmax_13": 1.0,
+      "outcome": "log manufacturing employment 1970",
+      "beta_matched": 0.38778
+    }
+  ],
+  "military": [
+    {
+      "beta_uncontrolled": 0.36679,
+      "beta_controlled": 0.59365,
+      "r2_uncontrolled": 0.0018,
+      "r2_controlled": 0.8841,
+      "n": 2963,
+      "delta_13": -19.917,
+      "delta_1": -19.917,
+      "rmax_13": 1.0,
+      "outcome": "log population 1970",
+      "beta_matched": 0.55093
+    },
+    {
+      "beta_uncontrolled": -7.56199,
+      "beta_controlled": -4.44182,
+      "r2_uncontrolled": 0.0056,
+      "r2_controlled": 0.5404,
+      "n": 2964,
+      "delta_13": 4.696,
+      "delta_1": 1.657,
+      "rmax_13": 0.7026,
+      "outcome": "manufacturing share 1970",
+      "beta_matched": -4.72009
+    },
+    {
+      "beta_uncontrolled": 0.10427,
+      "beta_controlled": 0.11921,
+      "r2_uncontrolled": 0.0031,
+      "r2_controlled": 0.5091,
+      "n": 2964,
+      "delta_13": -26.435,
+      "delta_1": -8.224,
+      "rmax_13": 0.6618,
+      "outcome": "log family income 1970",
+      "beta_matched": 0.10508
+    },
+    {
+      "beta_uncontrolled": -8.76832,
+      "beta_controlled": -7.72741,
+      "r2_uncontrolled": 0.0231,
+      "r2_controlled": 0.3825,
+      "n": 2964,
+      "delta_13": 23.25,
+      "delta_1": 4.32,
+      "rmax_13": 0.4972,
+      "outcome": "homeownership 1970",
+      "beta_matched": -7.48899
+    }
+  ]
+}

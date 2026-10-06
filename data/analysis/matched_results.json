@@ -1,0 +1,153 @@
+{
+  "setup": {
+    "pseudo_r2": 0.2719,
+    "n_support": 2318,
+    "n_matched_treated": 115,
+    "caliper": 0.01696
+  },
+  "balance": [
+    {
+      "var": "logpop1940",
+      "smd_raw": 1.4502,
+      "smd_matched": -0.0279
+    },
+    {
+      "var": "urbrate1940",
+      "smd_raw": 1.2618,
+      "smd_matched": 0.0266
+    },
+    {
+      "var": "blackshare1940",
+      "smd_raw": 0.0932,
+      "smd_matched": 0.1066
+    },
+    {
+      "var": "mfgshare1940",
+      "smd_raw": 0.6273,
+      "smd_matched": -0.0971
+    },
+    {
+      "var": "popgrowth_3040",
+      "smd_raw": 0.4495,
+      "smd_matched": 0.0645
+    },
+    {
+      "var": "PCTILL3",
+      "smd_raw": -0.1675,
+      "smd_matched": 0.0456
+    },
+    {
+      "var": "PCTFRM3",
+      "smd_raw": -0.1654,
+      "smd_matched": -0.0481
+    },
+    {
+      "var": "LATITUDE",
+      "smd_raw": -0.1472,
+      "smd_matched": -0.1237
+    },
+    {
+      "var": "LONGITUD",
+      "smd_raw": -0.0474,
+      "smd_matched": 0.0771
+    }
+  ],
+  "imbalanced_raw": 7,
+  "imbalanced_matched": 2,
+  "effects": [
+    {
+      "outcome": "log population 1970",
+      "raw": 1.39696,
+      "matched": 0.20915,
+      "se": 0.06048,
+      "p": 0.0005,
+      "ipw": 0.30411,
+      "n": 364
+    },
+    {
+      "outcome": "manufacturing share 1970",
+      "raw": 3.95277,
+      "matched": 3.33781,
+      "se": 0.84582,
+      "p": 0.0001,
+      "ipw": 3.68738,
+      "n": 364
+    },
+    {
+      "outcome": "log family income 1970",
+      "raw": 0.22009,
+      "matched": 0.0704,
+      "se": 0.01939,
+      "p": 0.0003,
+      "ipw": 0.11152,
+      "n": 364
+    },
+    {
+      "outcome": "homeownership 1970",
+      "raw": -1.67075,
+      "matched": 0.94165,
+      "se": 0.61174,
+      "p": 0.1237,
+      "ipw": 0.53765,
+      "n": 364
+    },
+    {
+      "outcome": "log family income 1950",
+      "raw": 0.28654,
+      "matched": 0.06468,
+      "se": 0.01892,
+      "p": 0.0006,
+      "ipw": 0.10109,
+      "n": 364
+    },
+    {
+      "outcome": "manufacturing share 1960",
+      "raw": 6.42961,
+      "matched": 3.2824,
+      "se": 0.83104,
+      "p": 0.0001,
+      "ipw": 4.1448,
+      "n": 364
+    },
+    {
+      "outcome": "log total employment 1970",
+      "raw": 1.44248,
+      "matched": 0.22276,
+      "se": 0.06456,
+      "p": 0.0006,
+      "ipw": 0.30439,
+      "n": 364
+    },
+    {
+      "outcome": "log manufacturing employment 1970",
+      "raw": 1.71258,
+      "matched": 0.38778,
+      "se": 0.08536,
+      "p": 0.0,
+      "ipw": 0.51264,
+      "n": 364
+    }
+  ],
+  "placebo": [
+    {
+      "outcome": "log pop growth 1930-40",
+      "coef": 0.03544,
+      "p": 0.6638,
+      "n": 364
+    },
+    {
+      "outcome": "mfg share 1940",
+      "coef": -0.02111,
+      "p": 0.8053,
+      "n": 364
+    },
+    {
+      "outcome": "homeownership 1940",
+      "coef": 1.26866,
+      "p": 0.1071,
+      "n": 364
+    }
+  ],
+  "n_state_clusters": 44,
+  "n_states_with_treated": 38
+}

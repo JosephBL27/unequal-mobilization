@@ -1,0 +1,66 @@
+{
+  "placebo": [
+    {
+      "outcome": "log population growth 1930-40",
+      "imp_coef": 0.0,
+      "imp_p": 0.7185,
+      "mil_coef": 0.0,
+      "mil_p": 0.8892
+    },
+    {
+      "outcome": "manufacturing share 1940",
+      "imp_coef": 0.01345,
+      "imp_p": 0.0,
+      "mil_coef": -0.00739,
+      "mil_p": 0.0001
+    },
+    {
+      "outcome": "log manufacturing payroll 1940",
+      "imp_coef": -0.07869,
+      "imp_p": 0.0117,
+      "mil_coef": -0.09525,
+      "mil_p": 0.0242
+    },
+    {
+      "outcome": "urban share 1940",
+      "imp_coef": 0.08956,
+      "imp_p": 0.0,
+      "mil_coef": 0.13403,
+      "mil_p": 0.0
+    }
+  ],
+  "reduced_form": [
+    {
+      "outcome": "log population",
+      "baseline": 0.02384,
+      "p_base": 0.1085,
+      "rich": 0.018,
+      "p_rich": 0.2431,
+      "pct_change": -0.245
+    },
+    {
+      "outcome": "mfg share",
+      "baseline": -0.67431,
+      "p_base": 0.1191,
+      "rich": -1.0146,
+      "p_rich": 0.0063,
+      "pct_change": -0.505
+    },
+    {
+      "outcome": "log income",
+      "baseline": -0.21407,
+      "p_base": 0.0,
+      "rich": -0.24793,
+      "p_rich": 0.0,
+      "pct_change": -0.158
+    },
+    {
+      "outcome": "homeownership",
+      "baseline": -2.65943,
+      "p_base": 0.0001,
+      "rich": -3.5179,
+      "p_rich": 0.0,
+      "pct_change": -0.323
+    }
+  ]
+}

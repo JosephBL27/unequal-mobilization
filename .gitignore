@@ -1,0 +1,40 @@
+# ---- environment ----
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# ---- raw and intermediate data (7 GB, all re-derivable or re-downloadable) ----
+# Sources are named in DATA_LEDGER.md; nothing here is authored by us.
+data/raw/
+data/interim/
+_quarantine/
+
+# ---- derived data ----
+# Parquet and CSV are outputs of src/ and rebuild in minutes. The JSON result
+# files ARE the findings the paper cites, so they are tracked deliberately.
+data/analysis/*.parquet
+data/analysis/*.csv
+data/docs/inventory.json
+
+# ---- LaTeX build ----
+paper/build/
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.bbl
+*.blg
+paper/tables/_check.*
+
+# ---- figures ----
+# The paper embeds the PNGs; the vector PDFs are 19 MB and regenerate from
+# src/make_maps.py.
+paper/figures/*.pdf
+
+# ---- scratch ----
+logs/
+*.bak
+.bak_*

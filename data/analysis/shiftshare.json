@@ -1,0 +1,746 @@
+{
+  "n_capacity_counties": 3035,
+  "classifier": {
+    "distinct_strings": 32501,
+    "dollar_share": 0.9508,
+    "record_share": 0.8505,
+    "residual_strings": 8796,
+    "largest_residual_m": 114.6,
+    "n_classes": 21
+  },
+  "classes": [
+    {
+      "class": "aircraft",
+      "basis": "1940 establishments",
+      "national_bn": 51.846,
+      "counties_with_capacity": 41,
+      "max_county_share": 0.1125
+    },
+    {
+      "class": "ships",
+      "basis": "1940 establishments",
+      "national_bn": 25.715,
+      "counties_with_capacity": 161,
+      "max_county_share": 0.0342
+    },
+    {
+      "class": "railroad",
+      "basis": "1940 establishments",
+      "national_bn": 0.824,
+      "counties_with_capacity": 365,
+      "max_county_share": 0.0279
+    },
+    {
+      "class": "tanks",
+      "basis": "1940 establishments",
+      "national_bn": 5.047,
+      "counties_with_capacity": 96,
+      "max_county_share": 0.0854
+    },
+    {
+      "class": "motorveh",
+      "basis": "1940 establishments",
+      "national_bn": 10.492,
+      "counties_with_capacity": 413,
+      "max_county_share": 0.063
+    },
+    {
+      "class": "ammunition",
+      "basis": "1940 establishments",
+      "national_bn": 14.364,
+      "counties_with_capacity": 44,
+      "max_county_share": 0.0645
+    },
+    {
+      "class": "explosives",
+      "basis": "1940 establishments",
+      "national_bn": 1.708,
+      "counties_with_capacity": 60,
+      "max_county_share": 0.0411
+    },
+    {
+      "class": "firearms",
+      "basis": "1940 establishments",
+      "national_bn": 12.209,
+      "counties_with_capacity": 14,
+      "max_county_share": 0.1818
+    },
+    {
+      "class": "petroleum",
+      "basis": "1940 establishments",
+      "national_bn": 5.594,
+      "counties_with_capacity": 633,
+      "max_county_share": 0.0523
+    },
+    {
+      "class": "chemicals",
+      "basis": "1940 establishments",
+      "national_bn": 1.356,
+      "counties_with_capacity": 1012,
+      "max_county_share": 0.0647
+    },
+    {
+      "class": "rubber",
+      "basis": "1940 establishments",
+      "national_bn": 1.023,
+      "counties_with_capacity": 140,
+      "max_county_share": 0.0665
+    },
+    {
+      "class": "leather",
+      "basis": "1940 establishments",
+      "national_bn": 1.028,
+      "counties_with_capacity": 416,
+      "max_county_share": 0.103
+    },
+    {
+      "class": "textiles",
+      "basis": "1940 establishments",
+      "national_bn": 9.15,
+      "counties_with_capacity": 904,
+      "max_county_share": 0.0521
+    },
+    {
+      "class": "lumber",
+      "basis": "1940 establishments",
+      "national_bn": 0.955,
+      "counties_with_capacity": 1883,
+      "max_county_share": 0.0324
+    },
+    {
+      "class": "ironsteel",
+      "basis": "1940 establishments",
+      "national_bn": 3.321,
+      "counties_with_capacity": 548,
+      "max_county_share": 0.0856
+    },
+    {
+      "class": "nonferrous",
+      "basis": "1940 establishments",
+      "national_bn": 0.616,
+      "counties_with_capacity": 452,
+      "max_county_share": 0.0795
+    },
+    {
+      "class": "stoneclay",
+      "basis": "1940 establishments",
+      "national_bn": 0.184,
+      "counties_with_capacity": 1087,
+      "max_county_share": 0.033
+    },
+    {
+      "class": "instruments",
+      "basis": "1940 establishments",
+      "national_bn": 2.45,
+      "counties_with_capacity": 65,
+      "max_county_share": 0.1312
+    },
+    {
+      "class": "electrical",
+      "basis": "1930 employment",
+      "national_bn": 13.196,
+      "counties_with_capacity": 700,
+      "max_county_share": 0.1612
+    },
+    {
+      "class": "machinetool",
+      "basis": "1930 employment",
+      "national_bn": 7.986,
+      "counties_with_capacity": 2972,
+      "max_county_share": 0.059
+    },
+    {
+      "class": "food",
+      "basis": "1930 employment",
+      "national_bn": 0.044,
+      "counties_with_capacity": 2910,
+      "max_county_share": 0.0361
+    }
+  ],
+  "shiftshare": [
+    {
+      "instrument": "shift-share, all counties",
+      "F": 45.1,
+      "partial_r2": 0.0385,
+      "n": 3073,
+      "placebo": {
+        "1940 mfg share": 0.0,
+        "1940 urban share": 0.0,
+        "1940 log population": 0.0002,
+        "1930-40 pop growth": 0.0337
+      },
+      "usable": false
+    },
+    {
+      "instrument": "shift-share, county left out",
+      "F": 45.0,
+      "partial_r2": 0.0385,
+      "n": 3073,
+      "placebo": {
+        "1940 mfg share": 0.0,
+        "1940 urban share": 0.0,
+        "1940 log population": 0.0003,
+        "1930-40 pop growth": 0.0344
+      },
+      "usable": false
+    },
+    {
+      "instrument": "shift-share, state left out",
+      "F": 44.7,
+      "partial_r2": 0.0383,
+      "n": 3073,
+      "placebo": {
+        "1940 mfg share": 0.0,
+        "1940 urban share": 0.0,
+        "1940 log population": 0.0003,
+        "1930-40 pop growth": 0.0324
+      },
+      "usable": false
+    }
+  ],
+  "shiftshare_conditioned": {
+    "instrument": "shift-share, conditioned on prewar war-industry stock",
+    "F": 11.3,
+    "partial_r2": 0.0129,
+    "n": 3073,
+    "placebo": {
+      "1940 mfg share": 0.8691,
+      "1940 urban share": 0.0,
+      "1940 log population": 0.0,
+      "1930-40 pop growth": 0.2061
+    },
+    "usable": false
+  },
+  "imp_benchmark": {
+    "instrument": "IMP allocated facilities",
+    "F": 19.7,
+    "partial_r2": 0.0141,
+    "n": 3073,
+    "placebo": {
+      "1940 mfg share": 0.0,
+      "1940 urban share": 0.0,
+      "1940 log population": 0.0,
+      "1930-40 pop growth": 0.0012
+    },
+    "usable": false
+  },
+  "rotemberg": [
+    {
+      "class": "textiles",
+      "national_bn": 9.15,
+      "partial_r2": 0.0366,
+      "first_stage_b": 0.2786,
+      "F": 116.8
+    },
+    {
+      "class": "machinetool",
+      "national_bn": 7.99,
+      "partial_r2": 0.0316,
+      "first_stage_b": 0.3981,
+      "F": 100.4
+    },
+    {
+      "class": "motorveh",
+      "national_bn": 10.49,
+      "partial_r2": 0.0167,
+      "first_stage_b": 0.1553,
+      "F": 52.3
+    },
+    {
+      "class": "ironsteel",
+      "national_bn": 3.32,
+      "partial_r2": 0.0146,
+      "first_stage_b": 0.2137,
+      "F": 45.4
+    },
+    {
+      "class": "petroleum",
+      "national_bn": 5.59,
+      "partial_r2": 0.01,
+      "first_stage_b": 0.1018,
+      "F": 31.0
+    },
+    {
+      "class": "chemicals",
+      "national_bn": 1.36,
+      "partial_r2": 0.0096,
+      "first_stage_b": 0.1597,
+      "F": 29.8
+    },
+    {
+      "class": "stoneclay",
+      "national_bn": 0.18,
+      "partial_r2": 0.0055,
+      "first_stage_b": 0.2191,
+      "F": 17.1
+    },
+    {
+      "class": "ships",
+      "national_bn": 25.71,
+      "partial_r2": 0.0049,
+      "first_stage_b": 0.092,
+      "F": 15.3
+    },
+    {
+      "class": "nonferrous",
+      "national_bn": 0.62,
+      "partial_r2": 0.0041,
+      "first_stage_b": 0.2027,
+      "F": 12.7
+    },
+    {
+      "class": "electrical",
+      "national_bn": 13.2,
+      "partial_r2": 0.0034,
+      "first_stage_b": 0.1608,
+      "F": 10.4
+    },
+    {
+      "class": "leather",
+      "national_bn": 1.03,
+      "partial_r2": 0.0028,
+      "first_stage_b": 0.1126,
+      "F": 8.6
+    },
+    {
+      "class": "tanks",
+      "national_bn": 5.05,
+      "partial_r2": 0.0016,
+      "first_stage_b": 0.0727,
+      "F": 5.0
+    },
+    {
+      "class": "railroad",
+      "national_bn": 0.82,
+      "partial_r2": 0.0015,
+      "first_stage_b": 0.0702,
+      "F": 4.5
+    },
+    {
+      "class": "food",
+      "national_bn": 0.04,
+      "partial_r2": 0.0015,
+      "first_stage_b": 0.4458,
+      "F": 4.7
+    },
+    {
+      "class": "lumber",
+      "national_bn": 0.95,
+      "partial_r2": 0.0013,
+      "first_stage_b": 0.0616,
+      "F": 3.9
+    },
+    {
+      "class": "instruments",
+      "national_bn": 2.45,
+      "partial_r2": 0.0007,
+      "first_stage_b": -0.0806,
+      "F": 2.1
+    },
+    {
+      "class": "rubber",
+      "national_bn": 1.02,
+      "partial_r2": 0.0004,
+      "first_stage_b": 0.0514,
+      "F": 1.2
+    },
+    {
+      "class": "explosives",
+      "national_bn": 1.71,
+      "partial_r2": 0.0002,
+      "first_stage_b": 0.0273,
+      "F": 0.5
+    },
+    {
+      "class": "firearms",
+      "national_bn": 12.21,
+      "partial_r2": 0.0002,
+      "first_stage_b": -0.0552,
+      "F": 0.7
+    },
+    {
+      "class": "aircraft",
+      "national_bn": 51.85,
+      "partial_r2": 0.0001,
+      "first_stage_b": 0.0152,
+      "F": 0.2
+    },
+    {
+      "class": "ammunition",
+      "national_bn": 14.36,
+      "partial_r2": 0.0,
+      "first_stage_b": 0.0018,
+      "F": 0.0
+    }
+  ],
+  "national_medians": {
+    "mfgshare1940": 0.01188,
+    "warestabs": 4.0,
+    "n": 3073
+  },
+  "greenfield": [
+    {
+      "class": "aircraft",
+      "basis": "1940 establishments",
+      "bn": 51.64,
+      "counties_receiving": 317,
+      "prewar_counties": 43,
+      "greenfield_counties": 279,
+      "greenfield_counties_in_panel": 278,
+      "gf_median_mfgshare1940": 0.06902,
+      "gf_median_warestabs": 32.0,
+      "greenfield_dollar_share": 0.2791
+    },
+    {
+      "class": "ships",
+      "basis": "1940 establishments",
+      "bn": 25.6,
+      "counties_receiving": 383,
+      "prewar_counties": 167,
+      "greenfield_counties": 255,
+      "greenfield_counties_in_panel": 254,
+      "gf_median_mfgshare1940": 0.0613,
+      "gf_median_warestabs": 27.5,
+      "greenfield_dollar_share": 0.1994
+    },
+    {
+      "class": "railroad",
+      "basis": "1940 establishments",
+      "bn": 0.82,
+      "counties_receiving": 103,
+      "prewar_counties": 377,
+      "greenfield_counties": 29,
+      "greenfield_counties_in_panel": 29,
+      "gf_median_mfgshare1940": 0.05543,
+      "gf_median_warestabs": 20.0,
+      "greenfield_dollar_share": 0.0608
+    },
+    {
+      "class": "tanks",
+      "basis": "1940 establishments",
+      "bn": 5.04,
+      "counties_receiving": 191,
+      "prewar_counties": 100,
+      "greenfield_counties": 140,
+      "greenfield_counties_in_panel": 139,
+      "gf_median_mfgshare1940": 0.07402,
+      "gf_median_warestabs": 45.0,
+      "greenfield_dollar_share": 0.1699
+    },
+    {
+      "class": "motorveh",
+      "basis": "1940 establishments",
+      "bn": 10.46,
+      "counties_receiving": 375,
+      "prewar_counties": 423,
+      "greenfield_counties": 145,
+      "greenfield_counties_in_panel": 143,
+      "gf_median_mfgshare1940": 0.04327,
+      "gf_median_warestabs": 14.0,
+      "greenfield_dollar_share": 0.0627
+    },
+    {
+      "class": "ammunition",
+      "basis": "1940 establishments",
+      "bn": 14.08,
+      "counties_receiving": 505,
+      "prewar_counties": 47,
+      "greenfield_counties": 467,
+      "greenfield_counties_in_panel": 466,
+      "gf_median_mfgshare1940": 0.06109,
+      "gf_median_warestabs": 25.5,
+      "greenfield_dollar_share": 0.7717
+    },
+    {
+      "class": "explosives",
+      "basis": "1940 establishments",
+      "bn": 1.6,
+      "counties_receiving": 143,
+      "prewar_counties": 60,
+      "greenfield_counties": 116,
+      "greenfield_counties_in_panel": 116,
+      "gf_median_mfgshare1940": 0.06482,
+      "gf_median_warestabs": 43.5,
+      "greenfield_dollar_share": 0.8897
+    },
+    {
+      "class": "firearms",
+      "basis": "1940 establishments",
+      "bn": 12.06,
+      "counties_receiving": 331,
+      "prewar_counties": 15,
+      "greenfield_counties": 318,
+      "greenfield_counties_in_panel": 316,
+      "gf_median_mfgshare1940": 0.0708,
+      "gf_median_warestabs": 38.0,
+      "greenfield_dollar_share": 0.787
+    },
+    {
+      "class": "petroleum",
+      "basis": "1940 establishments",
+      "bn": 5.44,
+      "counties_receiving": 266,
+      "prewar_counties": 647,
+      "greenfield_counties": 70,
+      "greenfield_counties_in_panel": 69,
+      "gf_median_mfgshare1940": 0.03223,
+      "gf_median_warestabs": 7.0,
+      "greenfield_dollar_share": 0.1408
+    },
+    {
+      "class": "chemicals",
+      "basis": "1940 establishments",
+      "bn": 1.29,
+      "counties_receiving": 306,
+      "prewar_counties": 1031,
+      "greenfield_counties": 50,
+      "greenfield_counties_in_panel": 50,
+      "gf_median_mfgshare1940": 0.05026,
+      "gf_median_warestabs": 10.5,
+      "greenfield_dollar_share": 0.2407
+    },
+    {
+      "class": "rubber",
+      "basis": "1940 establishments",
+      "bn": 1.01,
+      "counties_receiving": 194,
+      "prewar_counties": 143,
+      "greenfield_counties": 102,
+      "greenfield_counties_in_panel": 102,
+      "gf_median_mfgshare1940": 0.06879,
+      "gf_median_warestabs": 23.0,
+      "greenfield_dollar_share": 0.2301
+    },
+    {
+      "class": "leather",
+      "basis": "1940 establishments",
+      "bn": 0.98,
+      "counties_receiving": 214,
+      "prewar_counties": 427,
+      "greenfield_counties": 46,
+      "greenfield_counties_in_panel": 46,
+      "gf_median_mfgshare1940": 0.05144,
+      "gf_median_warestabs": 13.0,
+      "greenfield_dollar_share": 0.1061
+    },
+    {
+      "class": "textiles",
+      "basis": "1940 establishments",
+      "bn": 8.29,
+      "counties_receiving": 831,
+      "prewar_counties": 926,
+      "greenfield_counties": 190,
+      "greenfield_counties_in_panel": 185,
+      "gf_median_mfgshare1940": 0.02488,
+      "gf_median_warestabs": 6.0,
+      "greenfield_dollar_share": 0.1416
+    },
+    {
+      "class": "lumber",
+      "basis": "1940 establishments",
+      "bn": 0.92,
+      "counties_receiving": 569,
+      "prewar_counties": 1907,
+      "greenfield_counties": 44,
+      "greenfield_counties_in_panel": 39,
+      "gf_median_mfgshare1940": 0.02984,
+      "gf_median_warestabs": 0.0,
+      "greenfield_dollar_share": 0.1061
+    },
+    {
+      "class": "ironsteel",
+      "basis": "1940 establishments",
+      "bn": 3.27,
+      "counties_receiving": 361,
+      "prewar_counties": 560,
+      "greenfield_counties": 69,
+      "greenfield_counties_in_panel": 68,
+      "gf_median_mfgshare1940": 0.03653,
+      "gf_median_warestabs": 8.0,
+      "greenfield_dollar_share": 0.0592
+    },
+    {
+      "class": "nonferrous",
+      "basis": "1940 establishments",
+      "bn": 0.58,
+      "counties_receiving": 162,
+      "prewar_counties": 459,
+      "greenfield_counties": 40,
+      "greenfield_counties_in_panel": 39,
+      "gf_median_mfgshare1940": 0.05447,
+      "gf_median_warestabs": 10.0,
+      "greenfield_dollar_share": 0.3193
+    },
+    {
+      "class": "stoneclay",
+      "basis": "1940 establishments",
+      "bn": 0.18,
+      "counties_receiving": 188,
+      "prewar_counties": 1109,
+      "greenfield_counties": 26,
+      "greenfield_counties_in_panel": 25,
+      "gf_median_mfgshare1940": 0.03322,
+      "gf_median_warestabs": 4.0,
+      "greenfield_dollar_share": 0.0677
+    },
+    {
+      "class": "instruments",
+      "basis": "1940 establishments",
+      "bn": 2.43,
+      "counties_receiving": 157,
+      "prewar_counties": 67,
+      "greenfield_counties": 105,
+      "greenfield_counties_in_panel": 104,
+      "gf_median_mfgshare1940": 0.07239,
+      "gf_median_warestabs": 41.0,
+      "greenfield_dollar_share": 0.4322
+    },
+    {
+      "class": "electrical",
+      "basis": "1930 employment",
+      "bn": 13.05,
+      "counties_receiving": 376,
+      "prewar_counties": 703,
+      "greenfield_counties": 116,
+      "greenfield_counties_in_panel": 115,
+      "gf_median_mfgshare1940": 0.05315,
+      "gf_median_warestabs": 30.0,
+      "greenfield_dollar_share": 0.2051
+    },
+    {
+      "class": "machinetool",
+      "basis": "1930 employment",
+      "bn": 7.92,
+      "counties_receiving": 478,
+      "prewar_counties": 2998,
+      "greenfield_counties": 13,
+      "greenfield_counties_in_panel": 11,
+      "gf_median_mfgshare1940": 0.04166,
+      "gf_median_warestabs": 0.0,
+      "greenfield_dollar_share": 0.0535
+    },
+    {
+      "class": "food",
+      "basis": "1930 employment",
+      "bn": 0.04,
+      "counties_receiving": 63,
+      "prewar_counties": 2936,
+      "greenfield_counties": 5,
+      "greenfield_counties_in_panel": 5,
+      "gf_median_mfgshare1940": 0.04045,
+      "gf_median_warestabs": 0.0,
+      "greenfield_dollar_share": 0.1313
+    }
+  ],
+  "by_year": {
+    "years": [
+      1940,
+      1941,
+      1942,
+      1943,
+      1944,
+      1945
+    ],
+    "dollars_bn": [
+      10.49,
+      17.74,
+      58.55,
+      45.53,
+      33.2,
+      12.66
+    ],
+    "coverage": [
+      0.15,
+      0.234,
+      0.3658,
+      0.4012,
+      0.3765,
+      0.3501
+    ],
+    "n_ever": 1490,
+    "rho_mfg_fixed_sample": [
+      0.4969,
+      0.5145,
+      0.5838,
+      0.4832,
+      0.5793,
+      0.5878
+    ],
+    "rho_mfg_all_counties": [
+      0.4931,
+      0.5715,
+      0.66,
+      0.6374,
+      0.6656,
+      0.6527
+    ],
+    "b_civic": {
+      "coef": [
+        0.004,
+        0.0055,
+        0.00761,
+        0.00806,
+        0.00787,
+        0.00736
+      ],
+      "p": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "se": [
+        0.0007,
+        0.00085,
+        0.00143,
+        0.00131,
+        0.00111,
+        0.00174
+      ],
+      "n": [
+        3073,
+        3073,
+        3073,
+        3073,
+        3073,
+        3073
+      ]
+    },
+    "b_enlistee": {
+      "coef": [
+        0.00031,
+        0.0011,
+        -0.0012,
+        -5e-05,
+        -0.00106,
+        -0.00027
+      ],
+      "p": [
+        0.691,
+        0.2745,
+        0.3813,
+        0.969,
+        0.4428,
+        0.8321
+      ],
+      "se": [
+        0.00079,
+        0.001,
+        0.00137,
+        0.00126,
+        0.00139,
+        0.00126
+      ],
+      "n": [
+        2976,
+        2976,
+        2976,
+        2976,
+        2976,
+        2976
+      ]
+    }
+  }
+}

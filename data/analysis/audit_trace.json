@@ -1,0 +1,178 @@
+[
+  {
+    "claim":"Counties in the estimation sample",
+    "value":"3,073",
+    "script":"src\/build_master_panel.py",
+    "artifact":"data\/analysis\/master_panel.parquet",
+    "script_sha":"734b81d71d72",
+    "artifact_sha":"4990729e0858"
+  },
+  {
+    "claim":"1940 population covered",
+    "value":"131.7M",
+    "script":"src\/build_master_panel.py",
+    "artifact":"data\/analysis\/master_panel.parquet",
+    "script_sha":"734b81d71d72",
+    "artifact_sha":"4990729e0858"
+  },
+  {
+    "claim":"Army\/AAF deaths",
+    "value":"297,627",
+    "script":"src\/build_county_panel.py",
+    "artifact":"data\/analysis\/casualties_county.parquet",
+    "script_sha":"070f7290e489",
+    "artifact_sha":"268eb6d90bfa"
+  },
+  {
+    "claim":"Enlistment records mapped",
+    "value":"7,188,777",
+    "script":"src\/build_ds2_county.py",
+    "artifact":"data\/analysis\/ds2_county.parquet",
+    "script_sha":"cf91f9b206c2",
+    "artifact_sha":"c0a97599809a"
+  },
+  {
+    "claim":"Contracts \/ value",
+    "value":"183,160 \/ $178.2bn",
+    "script":"src\/geocode.py",
+    "artifact":"data\/analysis\/contracts_geocoded.parquet",
+    "script_sha":"23eebb36f2ef",
+    "artifact_sha":"e5488fd11d78"
+  },
+  {
+    "claim":"War plants \/ public value",
+    "value":"13,459 \/ $15.3bn",
+    "script":"src\/parse_facilities.py",
+    "artifact":"data\/analysis\/facilities_geocoded.parquet",
+    "script_sha":"6f2ed6317d08",
+    "artifact_sha":"617078eceb57"
+  },
+  {
+    "claim":"Overlap coefficient A",
+    "value":"0.4663",
+    "script":"src\/overlap_analysis.py",
+    "artifact":"data\/analysis\/overlap_results.json",
+    "script_sha":"a7afb97183eb",
+    "artifact_sha":"459a3c395b95"
+  },
+  {
+    "claim":"Jensen-Shannon divergence",
+    "value":"0.3379",
+    "script":"src\/overlap_analysis.py",
+    "artifact":"data\/analysis\/overlap_results.json",
+    "script_sha":"a7afb97183eb",
+    "artifact_sha":"459a3c395b95"
+  },
+  {
+    "claim":"Per-capita Spearman (contracts)",
+    "value":"-0.0258",
+    "script":"src\/overlap_analysis.py",
+    "artifact":"data\/analysis\/overlap_results.json",
+    "script_sha":"a7afb97183eb",
+    "artifact_sha":"459a3c395b95"
+  },
+  {
+    "claim":"Counties with a death \/ a contract",
+    "value":"3,073 base",
+    "script":"src\/overlap_analysis.py",
+    "artifact":"data\/analysis\/overlap_results.json",
+    "script_sha":"a7afb97183eb",
+    "artifact_sha":"459a3c395b95"
+  },
+  {
+    "claim":"Zero-contract counties",
+    "value":"1,583",
+    "script":"src\/overlap_analysis.py",
+    "artifact":"data\/analysis\/overlap_results.json",
+    "script_sha":"a7afb97183eb",
+    "artifact_sha":"459a3c395b95"
+  },
+  {
+    "claim":"Pairwise A, plant x military",
+    "value":"0.2291",
+    "script":"src\/three_geographies.py",
+    "artifact":"data\/analysis\/three_geographies.json",
+    "script_sha":"1eef6d129650",
+    "artifact_sha":"3f4011895a3a"
+  },
+  {
+    "claim":"Per-capita rho vs burden (3)",
+    "value":"{'W_C': -0.0258, 'W_F': 0.014, 'W_M': -0.0526}",
+    "script":"src\/three_geographies.py",
+    "artifact":"data\/analysis\/three_geographies.json",
+    "script_sha":"1eef6d129650",
+    "artifact_sha":"3f4011895a3a"
+  },
+  {
+    "claim":"B^A national fatality rate",
+    "value":"42.87\/1000",
+    "script":"src\/analysis_exposure.py",
+    "artifact":"data\/analysis\/exposure_results.json",
+    "script_sha":"fa76b7a6c27d",
+    "artifact_sha":"84d5a1382a7e"
+  },
+  {
+    "claim":"B^A 90\/10 county ratio",
+    "value":"3.583",
+    "script":"src\/analysis_exposure.py",
+    "artifact":"data\/analysis\/exposure_results.json",
+    "script_sha":"fa76b7a6c27d",
+    "artifact_sha":"84d5a1382a7e"
+  },
+  {
+    "claim":"Composition R^2",
+    "value":"0.1768",
+    "script":"src\/composition.py",
+    "artifact":"data\/analysis\/composition_results.json",
+    "script_sha":"c21c5ffd9143",
+    "artifact_sha":"a4646e7563bc"
+  },
+  {
+    "claim":"Composition-adjusted rho (contracts)",
+    "value":"-0.1816",
+    "script":"src\/composition.py",
+    "artifact":"data\/analysis\/composition_results.json",
+    "script_sha":"c21c5ffd9143",
+    "artifact_sha":"a4646e7563bc"
+  },
+  {
+    "claim":"Pre-trend: W_C on 1930-40 growth",
+    "value":"0.00344",
+    "script":"src\/robustness.py",
+    "artifact":"data\/analysis\/robustness.json",
+    "script_sha":"f27f04c430dd",
+    "artifact_sha":"b81dd4d873a7"
+  },
+  {
+    "claim":"Conley SE, W_M on mfg 1970",
+    "value":"0.09945",
+    "script":"src\/robustness.py",
+    "artifact":"data\/analysis\/robustness.json",
+    "script_sha":"f27f04c430dd",
+    "artifact_sha":"b81dd4d873a7"
+  },
+  {
+    "claim":"First-stage F, plant on IMP",
+    "value":"63.629",
+    "script":"src\/iv_analysis.py",
+    "artifact":"data\/analysis\/iv_results.json",
+    "script_sha":"7d1e1c149019",
+    "artifact_sha":"d42d32799b60"
+  },
+  {
+    "claim":"IV partial R^2 (plant)",
+    "value":"0.010221246995165134",
+    "script":"src\/iv_single.py",
+    "artifact":"data\/analysis\/iv_single_results.json",
+    "script_sha":"aab4b51c7cae",
+    "artifact_sha":"744eb5486308"
+  },
+  {
+    "claim":"Placebo: IMP on 1940 mfg share",
+    "value":"0.01345",
+    "script":"src\/iv_validity.py",
+    "artifact":"data\/analysis\/iv_validity.json",
+    "script_sha":"4b45882f2aeb",
+    "artifact_sha":"1ca671cf3a27"
+  }
+]

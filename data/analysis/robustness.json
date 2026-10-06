@@ -1,0 +1,188 @@
+{
+  "pretrends": [
+    {
+      "outcome": "log pop growth 1920->1930",
+      "n": 3041,
+      "coef": {
+        "W_C": 0.00038,
+        "W_F": 0.00442,
+        "W_M": 0.00077,
+        "B": -0.00044
+      },
+      "p": {
+        "W_C": 0.8535,
+        "W_F": 0.2574,
+        "W_M": 0.8485,
+        "B": 0.8053
+      }
+    },
+    {
+      "outcome": "log pop growth 1930->1940",
+      "n": 3073,
+      "coef": {
+        "W_C": 0.00329,
+        "W_F": -0.00021,
+        "W_M": 0.00466,
+        "B": -0.00118
+      },
+      "p": {
+        "W_C": 0.0096,
+        "W_F": 0.9257,
+        "W_M": 0.0009,
+        "B": 0.0
+      }
+    },
+    {
+      "outcome": "mfg share 1940 (pre-war level)",
+      "n": 3073,
+      "coef": {
+        "W_C": 0.00462,
+        "W_F": 0.00098,
+        "W_M": -0.00141,
+        "B": 1e-05
+      },
+      "p": {
+        "W_C": 0.0,
+        "W_F": 0.0742,
+        "W_M": 0.0,
+        "B": 0.8801
+      }
+    }
+  ],
+  "conley": [
+    {
+      "outcome": "log population 1970",
+      "W_C": {
+        "coef": 0.03462,
+        "se_cluster": 0.00345,
+        "se_conley": 0.0042,
+        "t_conley": 8.249
+      },
+      "W_F": {
+        "coef": 0.0197,
+        "se_cluster": 0.00461,
+        "se_conley": 0.00394,
+        "t_conley": 5.003
+      },
+      "W_M": {
+        "coef": 0.0493,
+        "se_cluster": 0.00468,
+        "se_conley": 0.00467,
+        "t_conley": 10.562
+      },
+      "B": {
+        "coef": -0.00226,
+        "se_cluster": 0.00259,
+        "se_conley": 0.00252,
+        "t_conley": -0.896
+      }
+    },
+    {
+      "outcome": "mfg share 1970",
+      "W_C": {
+        "coef": 0.33252,
+        "se_cluster": 0.10158,
+        "se_conley": 0.09765,
+        "t_conley": 3.405
+      },
+      "W_F": {
+        "coef": 0.28508,
+        "se_cluster": 0.08289,
+        "se_conley": 0.08735,
+        "t_conley": 3.264
+      },
+      "W_M": {
+        "coef": -0.59454,
+        "se_cluster": 0.11075,
+        "se_conley": 0.09564,
+        "t_conley": -6.217
+      },
+      "B": {
+        "coef": -0.07981,
+        "se_cluster": 0.09606,
+        "se_conley": 0.0669,
+        "t_conley": -1.193
+      }
+    }
+  ],
+  "drop_top20": [
+    {
+      "outcome": "log pop 1970",
+      "W_C": {
+        "full": 0.03462,
+        "drop20": 0.03361
+      },
+      "W_F": {
+        "full": 0.0197,
+        "drop20": 0.02004
+      },
+      "W_M": {
+        "full": 0.0493,
+        "drop20": 0.0491
+      },
+      "B": {
+        "full": -0.00226,
+        "drop20": -0.00235
+      }
+    },
+    {
+      "outcome": "mfg share 1970",
+      "W_C": {
+        "full": 0.33252,
+        "drop20": 0.31796
+      },
+      "W_F": {
+        "full": 0.28508,
+        "drop20": 0.29211
+      },
+      "W_M": {
+        "full": -0.59454,
+        "drop20": -0.59867
+      },
+      "B": {
+        "full": -0.07981,
+        "drop20": -0.07865
+      }
+    }
+  ],
+  "burden_alt": [
+    {
+      "denominator": "per 1,000 residents",
+      "coef": -0.002261,
+      "p": 0.3824,
+      "n": 3065
+    },
+    {
+      "denominator": "per 1,000 males",
+      "coef": -0.001168,
+      "p": 0.3685,
+      "n": 3065
+    },
+    {
+      "denominator": "per 1,000 men in the labor force",
+      "coef": -0.000775,
+      "p": 0.2944,
+      "n": 3065
+    },
+    {
+      "denominator": "battle deaths only",
+      "coef": -0.005019,
+      "p": 0.1467,
+      "n": 3065
+    }
+  ],
+  "extensive": {
+    "any_C": {
+      "coef": 2.19398,
+      "p": 0.0
+    },
+    "any_F": {
+      "coef": 1.70438,
+      "p": 0.001
+    },
+    "any_M": {
+      "coef": -3.72484,
+      "p": 0.0
+    }
+  }
+}

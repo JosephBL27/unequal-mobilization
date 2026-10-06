@@ -1,0 +1,40 @@
+{
+  "contracts": {
+    "rows_total": 190693,
+    "rows_matched": 182544,
+    "row_match_rate": 0.9573,
+    "dollars_total_k": 180980293.0,
+    "dollar_match_rate": 0.9805,
+    "counties_covered": 1499,
+    "unmatched_dollars_k": 3522173.0,
+    "unmatched_distinct_city_states": 710
+  },
+  "casualties_ds1": {
+    "rows_total": 300131,
+    "rows_with_fips": 299416,
+    "fips_rate": 0.9976,
+    "counties": 3043,
+    "status_counts": {
+      "KIA": 171530,
+      "DNB": 82479,
+      "DOW": 24786,
+      "FOD": 18888,
+      "M": 1352,
+      "DOI": 912,
+      "": 184
+    },
+    "rows_unassigned": 715,
+    "assigned_deaths": 297887,
+    "assigned_battle_deaths": 195851,
+    "assigned_missing": 1348,
+    "assigned_no_status": 181,
+    "status_coded": 299947
+  },
+  "enlistment_ds2": {
+    "rows_total": 8293187,
+    "rows_with_geo": 8292054,
+    "state_county_cells": 11410,
+    "total_killed_flag": 234386,
+    "note": "ENL_STATE/ENL_COUNTY are NARA codes, NOT FIPS. A NARA->FIPS crosswalk is required before merging to counties."
+  }
+}

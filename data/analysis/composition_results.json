@@ -1,0 +1,23 @@
+{
+  "n": 2966,
+  "composition_R2": 0.1768,
+  "contracts": {
+    "rho_raw": -0.1704,
+    "rho_adjusted": -0.1816
+  },
+  "war plant": {
+    "rho_raw": -0.0703,
+    "rho_adjusted": -0.1188
+  },
+  "military": {
+    "rho_raw": -0.178,
+    "rho_adjusted": -0.0829
+  },
+  "agct_coverage": {
+    "records_with_agct": 447464,
+    "records_total": 8293187,
+    "share": 0.054,
+    "counties_no_agct": 139,
+    "counties_total": 3078
+  }
+}

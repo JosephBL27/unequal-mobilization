@@ -1,0 +1,19 @@
+{
+  "rows": 190693,
+  "matched": 183479,
+  "row_rate": 0.9622,
+  "by_stage": {
+    "exact": 159129,
+    "alias": 23911,
+    "fuzzy": 439
+  },
+  "counties": 1505,
+  "weight_total": 180980293.0,
+  "weight_matched": 178258568.0,
+  "weight_rate": 0.985,
+  "weight_by_stage": {
+    "exact": 0.8311,
+    "alias": 0.1524,
+    "fuzzy": 0.0015
+  }
+}

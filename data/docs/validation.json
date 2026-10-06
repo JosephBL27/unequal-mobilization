@@ -1,0 +1,1090 @@
+{
+  "contracts_brunet": {
+    "rows": 190693,
+    "cols": 22,
+    "columns": {
+      "location": {
+        "null_rate": 0.0,
+        "distinct": 4207,
+        "top": {
+          "NEW YORK NY": 9500,
+          "CHICAGO ILL": 8526,
+          "PHILADELPHIA PA": 5974,
+          "CLEVELAND OHIO": 4222
+        },
+        "blank": 0,
+        "ws_pad": 0
+      },
+      "country": {
+        "null_rate": 0.0,
+        "distinct": 1,
+        "top": {
+          "USA": 190693
+        },
+        "blank": 0,
+        "ws_pad": 0
+      },
+      "state_name": {
+        "null_rate": 0.0,
+        "distinct": 49,
+        "top": {
+          "New York": 28058,
+          "Pennsylvania": 22319,
+          "Ohio": 17668,
+          "New Jersey": 14695
+        },
+        "blank": 0,
+        "ws_pad": 0
+      },
+      "state": {
+        "null_rate": 0.0,
+        "distinct": 49,
+        "top": {
+          "NY": 28058,
+          "PA": 22319,
+          "OH": 17668,
+          "NJ": 14695
+        },
+        "blank": 0,
+        "ws_pad": 0
+      },
+      "fips_state": {
+        "null_rate": 0.0,
+        "distinct": 49,
+        "top": {
+          "36": 28058,
+          "42": 22319,
+          "39": 17668,
+          "34": 14695
+        },
+        "blank": 0,
+        "ws_pad": 0
+      },
+      "city_name": {
+        "null_rate": 0.0,
+        "distinct": 3234,
+        "top": {
+          "NEW YORK": 9543,
+          "CHICAGO": 8539,
+          "PHILADELPHIA": 5974,
+          "CLEVELAND": 4258
+        },
+        "blank": 0,
+        "ws_pad": 0
+      },
+      "NameofManufacturer": {
+        "null_rate": 0.0,
+        "distinct": 21223,
+        "top": {
+          "GENERAL ELECTRIC CO": 2031,
+          "WESTERN ELECTRIC CO INC": 1280,
+          "BETHLEHEM STEEL CO": 1156,
+          "WESTINGHOUSE ELECTRIC CORP": 1000
+        },
+        "blank": 0,
+        "ws_pad": 0
+      },
+      "Product": {
+        "null_rate": 0.0,
+        "distinct": 32495,
+        "top": {
+          "TOOLS MACHINE": 3343,
+          "STEEL": 2445,
+          "COTTON DUCK CLOTH": 1733,
+          "LUMBER": 1563
+        },
+        "blank": 0,
+        "ws_pad": 0
+      },
+      "ContractNumber": {
+        "null_rate": 0.0,
+        "distinct": 180374,
+        "top": {
+          "": 3117,
+          "TPS18172L": 149,
+          "TPS30000L": 91,
+          "<>": 72
+        },
+        "blank": 3117,
+        "ws_pad": 0
+      },
+      "Agency": {
+        "null_rate": 0.0,
+        "distinct": 13,
+        "top": {
+          "A": 109565,
+          "N": 54653,
+          "T": 16133,
+          "M": 7680
+        },
+        "blank": 147,
+        "ws_pad": 0
+      },
+      "Footnote": {
+        "null_rate": 0.0,
+        "distinct": 11,
+        "top": {
+          "": 168881,
+          "3": 11402,
+          "2": 5721,
+          "1": 4675
+        },
+        "blank": 168881,
+        "ws_pad": 0
+      },
+      "ValueThousandsDollars": {
+        "null_rate": 0.0,
+        "distinct": 8313,
+        "min": 1.0,
+        "max": 669133.0,
+        "mean": 949.066,
+        "p50": 143.0,
+        "p99": 14203.399999999936,
+        "zeros": 0,
+        "negatives": 0
+      },
+      "award_month": {
+        "null_rate": 0.0,
+        "distinct": 12,
+        "min": 1.0,
+        "max": 12.0,
+        "mean": 6.299,
+        "p50": 6.0,
+        "p99": 12.0,
+        "zeros": 0,
+        "negatives": 0
+      },
+      "award_year": {
+        "null_rate": 0.0,
+        "distinct": 6,
+        "min": 1940.0,
+        "max": 1945.0,
+        "mean": 1943.037,
+        "p50": 1943.0,
+        "p99": 1945.0,
+        "zeros": 0,
+        "negatives": 0
+      },
+      "completion_month": {
+        "null_rate": 0.0,
+        "distinct": 12,
+        "min": 1.0,
+        "max": 12.0,
+        "mean": 6.941,
+        "p50": 7.0,
+        "p99": 12.0,
+        "zeros": 0,
+        "negatives": 0
+      },
+      "PageNo": {
+        "null_rate": 0.0,
+        "distinct": 3509,
+        "top": {
+          "3025": 88,
+          "2912": 86,
+          "1010": 86,
+          "3081": 86
+        },
+        "blank": 0,
+        "ws_pad": 0
+      },
+      "PDFPageNo": {
+        "null_rate": 0.0,
+        "distinct": 450,
+        "top": {
+          "431": 591,
+          "159": 579,
+          "429": 563,
+          "207": 549
+        },
+        "blank": 0,
+        "ws_pad": 0
+      },
+      "volume": {
+        "null_rate": 0.0,
+        "distinct": 4,
+        "min": 1.0,
+        "max": 4.0,
+        "mean": 2.494,
+        "p50": 2.0,
+        "p99": 4.0,
+        "zeros": 0,
+        "negatives": 0
+      },
+      "completion_year": {
+        "null_rate": 0.0,
+        "distinct": 10,
+        "min": 1940.0,
+        "max": 1949.0,
+        "mean": 1943.562,
+        "p50": 1944.0,
+        "p99": 1946.0,
+        "zeros": 0,
+        "negatives": 0
+      },
+      "completion_year_estimated": {
+        "null_rate": 0.0,
+        "distinct": 2,
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.081,
+        "p50": 0.0,
+        "p99": 1.0,
+        "zeros": 175311,
+        "negatives": 0
+      },
+      "award_date": {
+        "null_rate": 0.0,
+        "distinct": 71,
+        "min": -240.0,
+        "max": -169.0,
+        "mean": -198.261,
+        "p50": -198.0,
+        "p99": -174.0,
+        "zeros": 0,
+        "negatives": 190693
+      },
+      "completion_date": {
+        "null_rate": 0.0,
+        "distinct": 109,
+        "min": -240.0,
+        "max": -125.0,
+        "mean": -191.315,
+        "p50": -190.0,
+        "p99": -163.0,
+        "zeros": 0,
+        "negatives": 190693
+      }
+    }
+  },
+  "ds1_army_casualties": {
+    "rows": 300131,
+    "cols": 11,
+    "columns": {
+      "NAME": {
+        "null_rate": 0.0,
+        "distinct": 289199,
+        "top": {
+          "WILLIAM H SMITH": 25,
+          "JAMES E SMITH": 15,
+          "CHARLES E SMITH": 14,
+          "JOHN W SMITH": 14
+        },
+        "blank": 14,
+        "ws_pad": 0
+      },
+      "SSID": {
+        "null_rate": 0.0,
+        "distinct": 300128,
+        "top": {
+          "O-825093": 2,
+          "O-735395": 2,
+          "O-689700": 2,
+          "36961162": 1
+        },
+        "blank": 0,
+        "ws_pad": 0
+      },
+      "RANK": {
+        "null_rate": 0.0,
+        "distinct": 25,
+        "top": {
+          "PFC": 74570,
+          "PVT": 73172,
+          "SSG": 27845,
+          "SGT": 26182
+        },
+        "blank": 224,
+        "ws_pad": 0
+      },
+      "RANKNUM": {
+        "null_rate": 0.0007,
+        "distinct": 24,
+        "top": {
+          "2": 74570,
+          "1": 73172,
+          "8": 27845,
+          "6": 26182
+        },
+        "blank": 0,
+        "ws_pad": 0
+      },
+      "RANKGROUP": {
+        "null_rate": 0.0,
+        "distinct": 4,
+        "min": 1.0,
+        "max": 4.0,
+        "mean": 1.578,
+        "p50": 1.0,
+        "p99": 3.0,
+        "zeros": 0,
+        "negatives": 0
+      },
+      "STATUS": {
+        "null_rate": 0.0,
+        "distinct": 7,
+        "top": {
+          "KIA": 171530,
+          "DNB": 82479,
+          "DOW": 24786,
+          "FOD": 18888
+        },
+        "blank": 184,
+        "ws_pad": 0
+      },
+      "STATUSNUM": {
+        "null_rate": 0.0006,
+        "distinct": 6,
+        "top": {
+          "1": 171530,
+          "2": 82479,
+          "3": 24786,
+          "4": 18888
+        },
+        "blank": 0,
+        "ws_pad": 0
+      },
+      "STATENAME": {
+        "null_rate": 0.0,
+        "distinct": 52,
+        "top": {
+          "NEW YORK": 30614,
+          "PENNSYLVANIA": 26178,
+          "CALIFORNIA": 16526,
+          "OHIO": 16367
+        },
+        "blank": 0,
+        "ws_pad": 0
+      },
+      "STATEICP": {
+        "null_rate": 0.0024,
+        "distinct": 49,
+        "top": {
+          "13": 30614,
+          "14": 26015,
+          "71": 16415,
+          "24": 16280
+        },
+        "blank": 0,
+        "ws_pad": 0
+      },
+      "COUNTYNAME": {
+        "null_rate": 0.0,
+        "distinct": 1814,
+        "top": {
+          "COOK": 8878,
+          "LOS ANGELES": 6428,
+          "KINGS": 5837,
+          "NEW YORK": 4675
+        },
+        "blank": 44,
+        "ws_pad": 0
+      },
+      "COUNTYID": {
+        "null_rate": 0.0024,
+        "distinct": 275,
+        "top": {
+          "31": 13081,
+          "3": 9382,
+          "37": 9357,
+          "1": 8837
+        },
+        "blank": 0,
+        "ws_pad": 0
+      }
+    }
+  },
+  "ds3_navy_casualties": {
+    "rows": 65507,
+    "cols": 18,
+    "columns": {
+      "MAINSTRING": {
+        "null_rate": 0.0,
+        "distinct": 65507,
+        "top": {
+          "ANTHONY, Anthony A., Pvt., USMC. Parents, Mr. and Mrs. Charles Anthony, Moorestown, Mich.": 1,
+          "ROBERTS, A. B., Chief Quartermaster, USN. Wife, Mrs. Madge Halcomb Roberts, 210 South Dixie, West Palm Beach, Fla.": 1,
+          "CROFFORD, A. B., Seaman 1c, USNR. Mother, Mrs. Eva Crofford, Ivy Henry Farm, RFD, Marks, Miss.": 1,
+          "BREAUX, A. B. John, Chief Boatswains Mate, USN. Wife, Mrs. Nathalie Comeaux Breaux, P.O. Box 81-C, Carenero, La.": 1
+        },
+        "blank": 0,
+        "ws_pad": 0
+      },
+      "ID": {
+        "null_rate": 0.0,
+        "distinct": 65507,
+        "min": 1.0,
+        "max": 65507.0,
+        "mean": 32754.0,
+        "p50": 32754.0,
+        "p99": 64851.94,
+        "zeros": 0,
+        "negatives": 0
+      },
+      "NAMELAST": {
+        "null_rate": 0.0,
+        "distinct": 27050,
+        "top": {
+          "SMITH": 633,
+          "JOHNSON": 426,
+          "BROWN": 316,
+          "MILLER": 316
+        },
+        "blank": 0,
+        "ws_pad": 0
+      },
+      "NAMEFRST": {
+        "null_rate": 0.0,
+        "distinct": 35141,
+        "top": {
+          "JOHN": 236,
+          "JOSEPH": 223,
+          "JOHN JOSEPH": 183,
+          "WILLIAM": 157
+        },
+        "blank": 0,
+        "ws_pad": 0
+      },
+      "STATE": {
+        "null_rate": 0.0,
+        "distinct": 49,
+        "top": {
+          "CALIFORNIA": 6671,
+          "NEW YORK": 5159,
+          "PENNSYLVANIA": 4293,
+          "ILLINOIS": 3749
+        },
+        "blank": 0,
+        "ws_pad": 0
+      },
+      "FIPS": {
+        "null_rate": 0.0972,
+        "distinct": 2911,
+        "top": {
+          "6037": 2076,
+          "17119": 1539,
+          "36059": 1110,
+          "36083": 1003
+        },
+        "blank": 0,
+        "ws_pad": 0
+      },
+      "STATEFIPS": {
+        "null_rate": 0.0972,
+        "distinct": 48,
+        "top": {
+          "6": 5887,
+          "36": 4539,
+          "42": 4077,
+          "17": 3692
+        },
+        "blank": 0,
+        "ws_pad": 0
+      },
+      "COUNTYFIPS": {
+        "null_rate": 0.0984,
+        "distinct": 284,
+        "top": {
+          "37": 2541,
+          "119": 2091,
+          "59": 1556,
+          "3": 1501
+        },
+        "blank": 0,
+        "ws_pad": 0
+      },
+      "PLACEFIPS": {
+        "null_rate": 0.0,
+        "distinct": 8878,
+        "top": {
+          "": 6368,
+          "14000": 1535,
+          "51000": 1220,
+          "07000": 1154
+        },
+        "blank": 6368,
+        "ws_pad": 0
+      },
+      "CITY": {
+        "null_rate": 0.0,
+        "distinct": 11567,
+        "top": {
+          "CHICAGO": 1463,
+          "LOS ANGELES": 974,
+          "NEW YORK": 950,
+          "BOSTON": 931
+        },
+        "blank": 4,
+        "ws_pad": 0
+      },
+      "NAMELAST_CLEANED": {
+        "null_rate": 0.0,
+        "distinct": 26150,
+        "top": {
+          "smith": 633,
+          "johnson": 427,
+          "brown": 319,
+          "miller": 317
+        },
+        "blank": 0,
+        "ws_pad": 0
+      },
+      "NAMEFRST_CLEANED": {
+        "null_rate": 0.0,
+        "distinct": 4562,
+        "top": {
+          "john": 3764,
+          "william": 3386,
+          "robert": 3346,
+          "james": 2765
+        },
+        "blank": 0,
+        "ws_pad": 0
+      },
+      "NAMELAST_NYSIIS": {
+        "null_rate": 0.0,
+        "distinct": 13794,
+        "top": {
+          "snat": 651,
+          "jansan": 475,
+          "bran": 389,
+          "jan": 380
+        },
+        "blank": 6,
+        "ws_pad": 0
+      },
+      "NAMEFRST_NYSIIS": {
+        "null_rate": 0.0,
+        "distinct": 2838,
+        "top": {
+          "jan": 6605,
+          "walan": 3401,
+          "rabad": 3347,
+          "carl": 2414
+        },
+        "blank": 1,
+        "ws_pad": 0
+      },
+      "WIFE": {
+        "null_rate": 0.0,
+        "distinct": 2,
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.237,
+        "p50": 0.0,
+        "p99": 1.0,
+        "zeros": 49992,
+        "negatives": 0
+      },
+      "PARENTS": {
+        "null_rate": 0.0,
+        "distinct": 2,
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.322,
+        "p50": 0.0,
+        "p99": 1.0,
+        "zeros": 44439,
+        "negatives": 0
+      },
+      "MOTHER": {
+        "null_rate": 0.0,
+        "distinct": 2,
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.232,
+        "p50": 0.0,
+        "p99": 1.0,
+        "zeros": 50317,
+        "negatives": 0
+      },
+      "FATHER": {
+        "null_rate": 0.0,
+        "distinct": 2,
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.171,
+        "p50": 0.0,
+        "p99": 1.0,
+        "zeros": 54275,
+        "negatives": 0
+      }
+    }
+  },
+  "gr_county_casualties": {
+    "rows": 3073,
+    "cols": 25,
+    "columns": {
+      "statename": {
+        "null_rate": 0.0,
+        "distinct": 49,
+        "top": {
+          "TEXAS": 254,
+          "GEORGIA": 159,
+          "KENTUCKY": 120,
+          "MISSOURI": 114
+        },
+        "blank": 0,
+        "ws_pad": 0
+      },
+      "stateicp": {
+        "null_rate": 0.0,
+        "distinct": 49,
+        "min": 1.0,
+        "max": 98.0,
+        "mean": 41.031,
+        "p50": 43.0,
+        "p99": 73.0,
+        "zeros": 0,
+        "negatives": 0
+      },
+      "countyname": {
+        "null_rate": 0.0,
+        "distinct": 1775,
+        "top": {
+          "WASHINGTON": 31,
+          "JEFFERSON": 26,
+          "FRANKLIN": 25,
+          "LINCOLN": 24
+        },
+        "blank": 0,
+        "ws_pad": 0
+      },
+      "county": {
+        "null_rate": 0.0,
+        "distinct": 255,
+        "min": 10.0,
+        "max": 5070.0,
+        "mean": 958.679,
+        "p50": 770.0,
+        "p99": 4455.599999999995,
+        "zeros": 0,
+        "negatives": 0
+      },
+      "casualties": {
+        "null_rate": 0.0172,
+        "distinct": 377,
+        "top": {
+          "16": 49,
+          "15": 49,
+          "23": 48,
+          "24": 46
+        },
+        "blank": 0,
+        "ws_pad": 0
+      },
+      "volunteer": {
+        "null_rate": 0.0,
+        "distinct": 923,
+        "min": 1.0,
+        "max": 50951.0,
+        "mean": 510.487,
+        "p50": 172.0,
+        "p99": 6898.239999999979,
+        "zeros": 0,
+        "negatives": 0
+      },
+      "drafted": {
+        "null_rate": 0.0,
+        "distinct": 1689,
+        "min": 2.0,
+        "max": 150027.0,
+        "mean": 1749.711,
+        "p50": 642.0,
+        "p99": 22009.279999999853,
+        "zeros": 0,
+        "negatives": 0
+      },
+      "volunteer_w": {
+        "null_rate": 0.0,
+        "distinct": 862,
+        "min": 1.0,
+        "max": 45457.0,
+        "mean": 457.696,
+        "p50": 154.0,
+        "p99": 6111.279999999942,
+        "zeros": 0,
+        "negatives": 0
+      },
+      "drafted_w": {
+        "null_rate": 0.0,
+        "distinct": 1566,
+        "min": 2.0,
+        "max": 140226.0,
+        "mean": 1517.164,
+        "p50": 528.0,
+        "p99": 18097.199999999677,
+        "zeros": 0,
+        "negatives": 0
+      },
+      "volunteer_b": {
+        "null_rate": 0.0,
+        "distinct": 177,
+        "min": 0.0,
+        "max": 2486.0,
+        "mean": 19.983,
+        "p50": 4.0,
+        "p99": 296.5199999999977,
+        "zeros": 514,
+        "negatives": 0
+      },
+      "drafted_b": {
+        "null_rate": 0.0,
+        "distinct": 660,
+        "min": 0.0,
+        "max": 21391.0,
+        "mean": 207.351,
+        "p50": 14.0,
+        "p99": 2573.3199999999506,
+        "zeros": 453,
+        "negatives": 0
+      },
+      "volunteer_o": {
+        "null_rate": 0.0,
+        "distinct": 221,
+        "min": 0.0,
+        "max": 3568.0,
+        "mean": 32.807,
+        "p50": 12.0,
+        "p99": 371.91999999999643,
+        "zeros": 90,
+        "negatives": 0
+      },
+      "drafted_o": {
+        "null_rate": 0.0,
+        "distinct": 194,
+        "min": 0.0,
+        "max": 6774.0,
+        "mean": 25.197,
+        "p50": 4.0,
+        "p99": 437.35999999999694,
+        "zeros": 304,
+        "negatives": 0
+      },
+      "age1440": {
+        "null_rate": 0.0023,
+        "distinct": 2683,
+        "top": {
+          "1140": 4,
+          "7299": 3,
+          "3040": 3,
+          "1376": 3
+        },
+        "blank": 0,
+        "ws_pad": 0
+      },
+      "age1445": {
+        "null_rate": 0.0023,
+        "distinct": 2734,
+        "top": {
+          "2440": 4,
+          "2210": 4,
+          "2601": 4,
+          "4813": 3
+        },
+        "blank": 0,
+        "ws_pad": 0
+      },
+      "age1440_white": {
+        "null_rate": 0.0023,
+        "distinct": 2611,
+        "top": {
+          "1675": 4,
+          "4047": 4,
+          "2039": 4,
+          "2156": 4
+        },
+        "blank": 0,
+        "ws_pad": 0
+      },
+      "age1445_white": {
+        "null_rate": 0.0023,
+        "distinct": 2650,
+        "top": {
+          "2440": 4,
+          "2048": 4,
+          "2559": 4,
+          "2574": 4
+        },
+        "blank": 0,
+        "ws_pad": 0
+      },
+      "age1440_black": {
+        "null_rate": 0.0023,
+        "distinct": 1169,
+        "top": {
+          "0": 611,
+          "1": 143,
+          "2": 92,
+          "3": 68
+        },
+        "blank": 0,
+        "ws_pad": 0
+      },
+      "age1445_black": {
+        "null_rate": 0.0023,
+        "distinct": 1192,
+        "top": {
+          "0": 575,
+          "1": 149,
+          "2": 88,
+          "3": 66
+        },
+        "blank": 0,
+        "ws_pad": 0
+      },
+      "age1430": {
+        "null_rate": 0.0023,
+        "distinct": 2557,
+        "top": {
+          "2571": 5,
+          "1194": 5,
+          "994": 4,
+          "1650": 4
+        },
+        "blank": 0,
+        "ws_pad": 0
+      },
+      "age1435": {
+        "null_rate": 0.0023,
+        "distinct": 2628,
+        "top": {
+          "1902": 4,
+          "2306": 4,
+          "4694": 4,
+          "1658": 4
+        },
+        "blank": 0,
+        "ws_pad": 0
+      },
+      "age1430_white": {
+        "null_rate": 0.0023,
+        "distinct": 2440,
+        "top": {
+          "2578": 5,
+          "918": 5,
+          "1508": 4,
+          "2312": 4
+        },
+        "blank": 0,
+        "ws_pad": 0
+      },
+      "age1435_white": {
+        "null_rate": 0.0023,
+        "distinct": 2538,
+        "top": {
+          "2144": 5,
+          "3129": 5,
+          "2014": 5,
+          "3535": 4
+        },
+        "blank": 0,
+        "ws_pad": 0
+      },
+      "age1430_black": {
+        "null_rate": 0.0023,
+        "distinct": 1047,
+        "top": {
+          "0": 712,
+          "1": 140,
+          "2": 94,
+          "3": 54
+        },
+        "blank": 0,
+        "ws_pad": 0
+      },
+      "age1435_black": {
+        "null_rate": 0.0023,
+        "distinct": 1122,
+        "top": {
+          "0": 660,
+          "1": 140,
+          "2": 92,
+          "3": 66
+        },
+        "blank": 0,
+        "ws_pad": 0
+      }
+    },
+    "key_dupes": {
+      "stateicp|county": 0
+    }
+  },
+  "haines_1940_subset": {
+    "rows": 3160,
+    "cols": 10,
+    "columns": {
+      "state": {
+        "null_rate": 0.0,
+        "distinct": 52,
+        "min": 1.0,
+        "max": 100.0,
+        "mean": 41.155,
+        "p50": 43.0,
+        "p99": 73.0,
+        "zeros": 0,
+        "negatives": 0
+      },
+      "county": {
+        "null_rate": 0.0,
+        "distinct": 287,
+        "min": 0.0,
+        "max": 8400.0,
+        "mean": 991.979,
+        "p50": 770.0,
+        "p99": 4958.199999999997,
+        "zeros": 52,
+        "negatives": 0
+      },
+      "name": {
+        "null_rate": 0.0,
+        "distinct": 1853,
+        "top": {
+          "WASHINGTON": 33,
+          "JEFFERSON": 26,
+          "FRANKLIN": 25,
+          "LINCOLN": 24
+        },
+        "blank": 0,
+        "ws_pad": 0
+      },
+      "totpop": {
+        "null_rate": 0.0,
+        "distinct": 3066,
+        "min": 0.0,
+        "max": 131669275.0,
+        "mean": 125316.131,
+        "p50": 18932.5,
+        "p99": 1898393.8999999997,
+        "zeros": 1,
+        "negatives": 0
+      },
+      "urb940": {
+        "null_rate": 0.0,
+        "distinct": 1800,
+        "min": 0.0,
+        "max": 74423702.0,
+        "mean": 70833.664,
+        "p50": 3554.5,
+        "p99": 956769.9999999957,
+        "zeros": 1258,
+        "negatives": 0
+      },
+      "mtot": {
+        "null_rate": 0.0003,
+        "distinct": 2986,
+        "top": {
+          "8164": 3,
+          "10410": 3,
+          "17935": 3,
+          "4912": 3
+        },
+        "blank": 0,
+        "ws_pad": 0
+      },
+      "ftot": {
+        "null_rate": 0.0003,
+        "distinct": 2988,
+        "top": {
+          "7857": 4,
+          "5174": 4,
+          "7121": 3,
+          "8635": 3
+        },
+        "blank": 0,
+        "ws_pad": 0
+      },
+      "negtot": {
+        "null_rate": 0.0035,
+        "distinct": 1688,
+        "top": {
+          "0": 314,
+          "1": 147,
+          "2": 69,
+          "3": 59
+        },
+        "blank": 0,
+        "ws_pad": 0
+      },
+      "totpop30": {
+        "null_rate": 0.0003,
+        "distinct": 3066,
+        "top": {
+          "17914": 3,
+          "5238": 3,
+          "15762": 3,
+          "20047": 3
+        },
+        "blank": 0,
+        "ws_pad": 0
+      },
+      "fips": {
+        "null_rate": 0.0006,
+        "distinct": 3158,
+        "min": 1000.0,
+        "max": 56047.0,
+        "mean": 30555.971,
+        "p50": 29198.0,
+        "p99": 55127.86,
+        "zeros": 0,
+        "negatives": 0
+      }
+    },
+    "key_dupes": {
+      "fips": 1
+    }
+  },
+  "integrity": {
+    "contracts": {
+      "value_null": 0,
+      "value_zero": 0,
+      "value_neg": 0,
+      "total_k": 180980293.0,
+      "p50_k": 143.0,
+      "p99_k": 14203.399999999936,
+      "max_k": 669133.0,
+      "gini_like_top1pct_share": 0.5016,
+      "full_row_duplicates": 30,
+      "dupe_on_contractnumber": 10319,
+      "award_year_range": [
+        1940.0,
+        1945.0
+      ],
+      "award_year_null": 0,
+      "distinct_manufacturers": 21223,
+      "distinct_cities": 3234,
+      "agency_counts": {
+        "A": 109565,
+        "N": 54653,
+        "T": 16133,
+        "M": 7680,
+        "F": 2486,
+        "": 147,
+        "V": 16,
+        "<>": 4
+      }
+    },
+    "ds1": {
+      "dupe_full_row": 0,
+      "dupe_name_ssid": 0,
+      "ssid_blank": 0,
+      "county_blank": 44,
+      "status_blank": 184
+    },
+    "ds3": {
+      "fips_null": 6368,
+      "fips_zero": 0,
+      "counties": 2911,
+      "dupe_full_row": 0
+    },
+    "haines1940": {
+      "total_rows": 3160,
+      "state_rows": 52,
+      "county_rows": 3107,
+      "fips_dupes": 0,
+      "pop_total": 132165129.0,
+      "pop_zero": 0,
+      "pop30_null": 0
+    }
+  }
+}

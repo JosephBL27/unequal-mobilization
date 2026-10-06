@@ -1,0 +1,80 @@
+{
+  "pairwise": {
+    "W_C x W_F": {
+      "A": 0.5906,
+      "JS": 0.2152,
+      "spearman": 0.6163
+    },
+    "W_C x W_M": {
+      "A": 0.2163,
+      "JS": 0.6467,
+      "spearman": 0.3427
+    },
+    "W_C x D": {
+      "A": 0.4663,
+      "JS": 0.3379,
+      "spearman": 0.6354
+    },
+    "W_F x W_M": {
+      "A": 0.2328,
+      "JS": 0.6409,
+      "spearman": 0.3079
+    },
+    "W_F x D": {
+      "A": 0.4132,
+      "JS": 0.4192,
+      "spearman": 0.4943
+    },
+    "W_M x D": {
+      "A": 0.2784,
+      "JS": 0.5509,
+      "spearman": 0.322
+    }
+  },
+  "percapita_vs_burden": {
+    "W_C": -0.0258,
+    "W_F": 0.0131,
+    "W_M": -0.0538
+  },
+  "conditional": {
+    "counties": {
+      "base only": 349,
+      "both": 275,
+      "plant only": 386
+    },
+    "med_burden": {
+      "base only": 2.1899,
+      "both": 2.2695,
+      "plant only": 2.3628
+    },
+    "mean_burden": {
+      "base only": 2.4472,
+      "both": 2.2954,
+      "plant only": 2.6344
+    },
+    "med_pop": {
+      "base only": 23858.0,
+      "both": 88415.0,
+      "plant only": 35558.0
+    },
+    "med_urban": {
+      "base only": 0.3399,
+      "both": 0.6163,
+      "plant only": 0.3971
+    },
+    "med_mfg": {
+      "base only": 0.0158,
+      "both": 0.0509,
+      "plant only": 0.0523
+    }
+  },
+  "burden_predicts_plant_vs_base": 0.1329,
+  "plant_share_low_burden_q": 0.3424,
+  "plant_share_high_burden_q": 0.5489,
+  "plant_vs_base_controlled": {
+    "coef": 0.0002,
+    "se": 0.0029,
+    "p": 0.9511,
+    "n": 735
+  }
+}
